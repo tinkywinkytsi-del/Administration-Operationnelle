@@ -33,6 +33,7 @@ contexte, il rend son résultat. Voir `agents/README.md` pour la convention.
 | `commands/` | slash-commands (`/nom`) |
 | `contexte-partage/` | ce que **tous** les agents doivent savoir sur TSI |
 | `conversations/` | les prompts d'origine, une conversation = un fichier |
+| `JOURNAL.md` | l'état du fil entre deux sessions — 40 lignes max, élagué à chaque clôture |
 
 ## Contexte partagé (à lire systématiquement)
 
@@ -57,6 +58,14 @@ Le module se construit à partir de conversations réelles. Chaque conversation
 source est archivée telle quelle dans `conversations/`, puis ce qui est
 réutilisable en est extrait vers `agents/` ou `skills/`. L'archive reste : elle
 explique *pourquoi* une règle existe. Voir `conversations/INDEX.md`.
+
+## Continuité entre sessions
+
+Le fil de travail vit dans [`JOURNAL.md`](JOURNAL.md), **pas dans une
+conversation éternelle**. Séquence : **`/synchronise`** → **`/clear`** →
+**`/releve`**, et **`/on-reprend <module>`** pour repartir en cours de route.
+Une reprise bien faite coûte 5 lectures, contre des ordres de grandeur de plus
+pour reconstruire le contexte en relisant le projet.
 
 ## Human-in-the-loop
 

@@ -5,4 +5,6 @@ Savoir-faire réutilisables : une procédure que plusieurs agents peuvent appele
 Convention : un dossier par skill, contenant `SKILL.md` avec le frontmatter
 `name` / `description`, et éventuellement `scripts/`.
 
-<!-- TODO -->
+| skill | module | objet |
+|---|---|---|
+| [`depouiller-certificats`](depouiller-certificats/SKILL.md) | soudure | lire les certificats scannés, croiser tableau et `QS/`, lister les incohérences |
