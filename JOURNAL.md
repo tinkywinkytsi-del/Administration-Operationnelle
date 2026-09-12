@@ -10,21 +10,24 @@
 
 ## ⚠️ En attente d'une décision — module soudure
 
-Cinq points bloquants relevés au dépouillement du 12.09.2026 :
+1. **Feuille « Archives », ligne 10** : le certificat `AC-24-00089` y est attribué au
+   poinçon LF, alors que ce numéro est celui du poinçon JM, actif en 2026 et
+   confirmé sur le certificat. Deux personnes ne peuvent porter le même numéro.
+   Pas corrigé : on ignore lequel des deux champs est faux.
+2. **Colonne « Pos » vide** sur les 2 lignes nouvellement archivées — la feuille
+   2026 n'a pas de source pour ce champ. Ne pas inventer.
+3. **Erreur de source non tranchée** : une date de naissance fausse sur un
+   certificat TSI-010 (celle d'un autre soudeur). Décision attendue : demander
+   une réédition, ou laisser.
 
-1. **Deux certificats TSI-004 valides pour un même soudeur (poinçon CP)** —
-   requalification mal archivée, ou deux qualifications distinctes ?
-2. **`AC-26-0303` existe en deux versions** — l'une signée mais à désignation
-   tronquée, l'autre complète mais non signée. Laquelle fait foi ?
-3. **Un soudeur sorti (poinçon SC)** garde 2 lignes dans la feuille 2026 →
-   à basculer en feuille « Archives ». Ses certificats n'existent que dans les
-   PDF scannés, pas comme fichiers séparés : faut-il les extraire ?
-4. **Deux lignes sans aucun certificat** (lignes 53 et 54) — jamais qualifiés,
-   ou en attente ?
-5. **Trois certificats TSI-004 de 2023 périmés le 07.06.2026** et pourtant visés
-   `09/26`. Les soudeurs concernés ne sont plus qualifiés TSI-004 — ils l'ont été
-   requalifiés en TSI-010. Rien à corriger dans le tableau, mais le scan
-   « TSI-004 a jour » porte un nom trompeur.
+## ⚠️ À FAIRE À LA MAIN — caches de calcul perdus
+
+**Ouvrir `certificat-qualification-soudeur.xlsx` dans Excel une fois et le
+réenregistrer.** L'écriture par openpyxl a vidé les valeurs en cache des colonnes
+`+6` à `+36` (245 cellules en 2026, 185 en 2025). `fullCalcOnLoad` est actif, donc
+Excel recalcule à l'ouverture — mais tant que ce n'est pas fait, **tout outil qui
+lit le classeur sans moteur de calcul verra ces colonnes vides** et conclura à tort
+que les confirmations semestrielles ont disparu.
 
 ## Erreurs de la source — à faire corriger par l'organisme certificateur
 
@@ -35,6 +38,17 @@ probablement mal orthographié · une macrographie cochée « réalisé » et
 
 ## Fait
 
+- **12.09.2026 — soudeur sorti (poinçon SC) archivé.** Ses 2 lignes transposées de
+  « 2026 » vers « Archives » (les 2 feuilles n'ont pas le même ordre de colonnes),
+  41 formules `EDATE` réécrites pour référencer chacune leur propre ligne, styles
+  et formats d'affichage repris de la feuille cible. Sauvegarde dans `00 Archive/`.
+  Relu par un agent indépendant : **0 écart** sur les autres lignes et sur les
+  feuilles historiques. 43 lignes → 41, 40 certificats → 38.
+- **12.09.2026 — décisions tranchées** : les 2 TSI-004 d'un même soudeur (poinçon CP)
+  sont **complémentaires** (3–7 mm + angle · 2,6–5,2 mm dès Ø25) et restent tous deux.
+  `AC-26-0303` : la version signée est déjà celle de `QS/`, rien à faire. Rien de
+  caduc dans un emplacement actif. Les 2 lignes sans certificat sont une note
+  personnelle, pas une anomalie — ne pas y toucher.
 - **12.09.2026 — dépouillement complet des 44 certificats** (6 PDF scannés,
   lecture répartie sur 4 sous-agents). Résultat : le tableau **ne contient
   aucune erreur** sur le n° de certificat, la date d'examen et la validité ; le
