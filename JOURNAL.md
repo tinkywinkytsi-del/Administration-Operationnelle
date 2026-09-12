@@ -11,8 +11,10 @@ propre et synchronisé. Trois décisions attendent Thomas (ci-dessous) ; tout le
 reste est soit livré, soit non commencé.
 
 Lire ce fichier, puis `docs/ORGANISATION.md` qui fait foi. Parler au
-`coordinateur`. Pour le travail documentaire, demander l'accès à
-`iCloud/TSI-new/` — il n'est pas accordé par défaut.
+`coordinateur`. L'accès à la base documentaire iCloud est **accordé
+automatiquement** via `permissions.additionalDirectories` dans
+`.claude/settings.local.json` — fichier personnel, non versionné, parce qu'il
+contient un chemin absolu qui n'a rien à faire dans un dépôt public.
 
 ## ⚠️ En attente d'une décision — module soudure
 
