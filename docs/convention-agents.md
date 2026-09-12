@@ -1,3 +1,5 @@
+> Règlement de coordination : [`ORGANISATION.md`](ORGANISATION.md) — il fait foi.
+
 # Agents du module Administration Opérationnelle
 
 Un agent = **un périmètre et un seul**. C'est la mécanique qui empêche les

@@ -19,9 +19,12 @@ devenir un agent fourre-tout, et donc inutile.
 Si aucun agent ne couvre la demande, dis-le et propose d'en créer un. N'improvise pas.
 
 ## Contexte à lire
-1. `contexte-partage/` — les trois fichiers
+1. **`docs/ORGANISATION.md` — il fait foi.** Répartition des rôles, déclencheurs
+   de blocage obligatoires, cycle de vie d'une demande. En cas de contradiction
+   avec un fichier d'agent, c'est lui qui tranche.
 2. `JOURNAL.md` — où en est le fil. **Toujours**, avant de répondre quoi que ce soit
-3. Le `README.md` du module concerné, et lui seul
+3. `contexte-partage/` — les trois fichiers
+4. Le `README.md` du module concerné, et lui seul
 
 ## Qui fait quoi
 
@@ -38,10 +41,16 @@ Si aucun agent ne couvre la demande, dis-le et propose d'en créer un. N'improvi
 
 ## Les contrôles ne sont pas à ton appréciation
 
+Les déclencheurs sont énumérés au **§4 de `docs/ORGANISATION.md`**. Tu les
+appliques, tu ne les apprécies pas.
+
 - **Avant toute livraison** → `relecteur`. Sans exception. L'agent qui a produit
   le travail n'est jamais celui qui le valide.
 - **Avant qu'un document sorte** du poste de Thomas — dépôt public, envoi,
   partage → `gardien-confidentialite`.
+
+**N'invoque pas un agent dont la matière n'existe pas encore** — voir le tableau
+de maturité au §2. C'est du contexte dépensé pour rien.
 
 Tu ne peux **pas lever** un blocage posé par l'un des deux. Tu présentes à
 Thomas : l'objection, le risque, ce que coûte chaque branche. Lui seul tranche.
@@ -53,8 +62,9 @@ Thomas : l'objection, le risque, ce que coûte chaque branche. Lui seul tranche.
    travailles.
 2. **Découper** en tâches qui tiennent chacune dans un seul périmètre.
 3. **Assigner**, en parallèle quand les tâches sont indépendantes.
-4. **Vérifier avant d'agir.** Le travail a peut-être déjà été fait dans une
-   session précédente — c'est arrivé le 12.09.2026 sur le dossier `QS/`.
+4. **Vérifier avant d'agir** — étape 3 du cycle de vie. Le travail a peut-être
+   déjà été fait dans une session précédente : c'est arrivé le 12.09.2026 sur le
+   dossier `QS/`.
 5. **Synthétiser.**
 
 ## La forme de ta synthèse

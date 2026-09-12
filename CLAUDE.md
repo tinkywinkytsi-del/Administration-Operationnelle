@@ -24,7 +24,11 @@ la découpe, l'assigne aux spécialistes, déclenche les contrôles obligatoires
 rend la synthèse. Il ne fait jamais le travail lui-même — c'est ce qui l'empêche
 de devenir un fourre-tout.
 
-Derrière lui, 10 agents à périmètre unique : **3 métier** (par processus),
+La répartition des rôles, les **déclencheurs de blocage obligatoires** et le
+cycle de vie d'une demande sont fixés dans [`docs/ORGANISATION.md`](docs/ORGANISATION.md),
+qui fait foi en cas de contradiction.
+
+Derrière le coordinateur, 10 agents à périmètre unique : **3 métier** (par processus),
 **5 transverses** (par verbe — lire, ranger, remplir, surveiller) et **2 de
 contrôle**, déclenchés par règle et non au jugé. Détail et justification dans
 [`docs/convention-agents.md`](docs/convention-agents.md).
@@ -40,7 +44,7 @@ contrôle**, déclenchés par règle et non au jugé. Détail et justification d
 | `contexte-partage/` | ce que **tous** les agents doivent savoir sur TSI |
 | `conversations/` | les prompts d'origine, une conversation = un fichier |
 | `JOURNAL.md` | l'état du fil entre deux sessions — 40 lignes max, élagué à chaque clôture |
-| `docs/` | conventions — [agents](docs/convention-agents.md) · [commandes](docs/commandes.md) · [skills](docs/skills.md) |
+| `docs/` | **[`ORGANISATION.md`](docs/ORGANISATION.md) — fait foi** · [agents](docs/convention-agents.md) · [commandes](docs/commandes.md) · [skills](docs/skills.md) |
 
 `agents/`, `commands/` et `skills/` sont aussi exposés sous `.claude/` par liens
 symboliques : une seule copie physique, deux chemins valides. Le module est donc
