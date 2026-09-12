@@ -17,11 +17,17 @@ Si une conversation TSI a besoin de quelque chose qui n'existe pas encore ici, o
 ne va pas le chercher ailleurs : **on le crée ici**, dans `agents/`, `skills/` ou
 `contexte-partage/`, et on l'utilise depuis ici.
 
-## À quoi sert la séparation en agents
+## L'organisation en agents
 
-Chaque agent couvre **un périmètre et un seul**. C'est ce qui empêche une
-conversation de tout mélanger : on invoque l'agent du sujet, il lit son propre
-contexte, il rend son résultat. Voir [`docs/convention-agents.md`](docs/convention-agents.md).
+**On parle au [`coordinateur`](agents/coordinateur.md).** Il reformule la demande,
+la découpe, l'assigne aux spécialistes, déclenche les contrôles obligatoires et
+rend la synthèse. Il ne fait jamais le travail lui-même — c'est ce qui l'empêche
+de devenir un fourre-tout.
+
+Derrière lui, 10 agents à périmètre unique : **3 métier** (par processus),
+**5 transverses** (par verbe — lire, ranger, remplir, surveiller) et **2 de
+contrôle**, déclenchés par règle et non au jugé. Détail et justification dans
+[`docs/convention-agents.md`](docs/convention-agents.md).
 
 ## Structure
 

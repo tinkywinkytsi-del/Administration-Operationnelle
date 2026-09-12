@@ -42,6 +42,10 @@ probablement mal orthographié · une macrographie cochée « réalisé » et
   nécessaire et appliquée : **19 noms de fichiers** passés en majuscules
   (38/38 cohérents).
 - **12.09.2026** — création du module, de ses 3 sous-modules et de leurs agents.
+- **12.09.2026** — architecture portée à **11 agents** : un coordinateur, 3 métier,
+  5 transverses (par verbe, pas par dossier), 2 de contrôle obligatoires.
+  Commandes de continuité, `JOURNAL.md`, skill `depouiller-certificats`, et
+  exposition sous `.claude/` par liens symboliques.
 
 ## Modules sans activité
 
