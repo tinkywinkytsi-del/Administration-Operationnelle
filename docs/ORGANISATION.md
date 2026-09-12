@@ -27,7 +27,7 @@ hors du dépôt attend un accord explicite, point par point.
 
 ---
 
-## 2. Les 11 agents et leur maturité
+## 2. Les 14 agents et leur maturité
 
 Ne pas invoquer un agent dont la matière n'existe pas encore : c'est du temps et
 du contexte dépensés pour rien.
@@ -38,6 +38,9 @@ du contexte dépensés pour rien.
 | `soudure` | métier | **exercé** — dépouillement de 44 certificats |
 | `controle-chantier` | métier | défini, jamais exercé |
 | `rapport-hebdomadaire` | métier | défini, jamais exercé |
+| `appels-offres` | métier | défini, jamais exercé — pas de conversation source |
+| `attestations` | métier | défini, jamais exercé — pas de conversation source |
+| `radiographies` | métier | défini, jamais exercé — pas de conversation source |
 | `lecteur-scan` | transverse | **exercé** — procédure appliquée, agent non invoqué |
 | `lecteur-tableur` | transverse | **exercé** — procédure appliquée, agent non invoqué |
 | `classeur` | transverse | défini, jamais exercé |
@@ -63,6 +66,7 @@ Qui contrôle quoi. **Personne ne se relit soi-même.**
 | une valeur transcrite d'un scan | recoupée avec la pièce originale, jamais avec un tableau |
 | un calcul d'échéance | recalculé indépendamment, jamais relu |
 | une donnée métier soudage | `soudure` — lui seul connaît les plages de qualification |
+| une échéance, quelle qu'elle soit | `veille-echeances` — toujours vérifiée sur pièce |
 
 ---
 

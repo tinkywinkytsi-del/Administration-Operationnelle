@@ -31,7 +31,7 @@ Les étapes, dans l'ordre.
 Ce qu'il ne doit jamais faire sans validation.
 ```
 
-## Les 11 agents
+## Les 14 agents
 
 **Le coordinateur — celui à qui on parle**
 
@@ -46,6 +46,9 @@ Ce qu'il ne doit jamais faire sans validation.
 | [`soudure`](../agents/soudure.md) | certificats de qualification, DMOS/QMOS | [soudure](../modules/soudure/README.md) |
 | [`controle-chantier`](../agents/controle-chantier.md) | procès-verbal de contrôle de chantier | [controle-chantier](../modules/controle-chantier/README.md) |
 | [`rapport-hebdomadaire`](../agents/rapport-hebdomadaire.md) | fiches d'heures et de frais, rapport mensuel | [rapport-hebdomadaire](../modules/rapport-hebdomadaire/README.md) |
+| [`appels-offres`](../agents/appels-offres.md) | offres, soumissions, PV d'ouverture, taux de réussite | — |
+| [`attestations`](../agents/attestations.md) | justificatifs légaux et sociaux, TSI et prestataires | — |
+| [`radiographies`](../agents/radiographies.md) | rapports RT, conformité, laboratoires et tarifs | — |
 
 **Agents transverses — par verbe**
 

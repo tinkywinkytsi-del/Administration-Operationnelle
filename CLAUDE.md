@@ -28,7 +28,7 @@ La répartition des rôles, les **déclencheurs de blocage obligatoires** et le
 cycle de vie d'une demande sont fixés dans [`docs/ORGANISATION.md`](docs/ORGANISATION.md),
 qui fait foi en cas de contradiction.
 
-Derrière le coordinateur, 10 agents à périmètre unique : **3 métier** (par processus),
+Derrière le coordinateur, 13 agents à périmètre unique : **6 métier** (par processus),
 **5 transverses** (par verbe — lire, ranger, remplir, surveiller) et **2 de
 contrôle**, déclenchés par règle et non au jugé. Détail et justification dans
 [`docs/convention-agents.md`](docs/convention-agents.md).
