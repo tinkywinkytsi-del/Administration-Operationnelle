@@ -35,6 +35,6 @@ Un agent par module. Le tableau suit `modules/`.
 
 | agent | périmètre | module |
 |---|---|---|
-| [`soudure`](soudure.md) | certificats de qualification soudeur, DMOS/QMOS | [`modules/soudure`](../modules/soudure/README.md) |
-| [`controle-chantier`](controle-chantier.md) | procès-verbal de contrôle de chantier | [`modules/controle-chantier`](../modules/controle-chantier/README.md) |
-| [`rapport-hebdomadaire`](rapport-hebdomadaire.md) | fiches hebdo d'heures et frais, rapport mensuel | [`modules/rapport-hebdomadaire`](../modules/rapport-hebdomadaire/README.md) |
+| [`soudure`](../agents/soudure.md) | certificats de qualification soudeur, DMOS/QMOS | [`modules/soudure`](../modules/soudure/README.md) |
+| [`controle-chantier`](../agents/controle-chantier.md) | procès-verbal de contrôle de chantier | [`modules/controle-chantier`](../modules/controle-chantier/README.md) |
+| [`rapport-hebdomadaire`](../agents/rapport-hebdomadaire.md) | fiches hebdo d'heures et frais, rapport mensuel | [`modules/rapport-hebdomadaire`](../modules/rapport-hebdomadaire/README.md) |

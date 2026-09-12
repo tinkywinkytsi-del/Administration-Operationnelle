@@ -21,7 +21,7 @@ ne va pas le chercher ailleurs : **on le crée ici**, dans `agents/`, `skills/` 
 
 Chaque agent couvre **un périmètre et un seul**. C'est ce qui empêche une
 conversation de tout mélanger : on invoque l'agent du sujet, il lit son propre
-contexte, il rend son résultat. Voir `agents/README.md` pour la convention.
+contexte, il rend son résultat. Voir [`docs/convention-agents.md`](docs/convention-agents.md).
 
 ## Structure
 
@@ -34,6 +34,11 @@ contexte, il rend son résultat. Voir `agents/README.md` pour la convention.
 | `contexte-partage/` | ce que **tous** les agents doivent savoir sur TSI |
 | `conversations/` | les prompts d'origine, une conversation = un fichier |
 | `JOURNAL.md` | l'état du fil entre deux sessions — 40 lignes max, élagué à chaque clôture |
+| `docs/` | conventions — [agents](docs/convention-agents.md) · [commandes](docs/commandes.md) · [skills](docs/skills.md) |
+
+`agents/`, `commands/` et `skills/` sont aussi exposés sous `.claude/` par liens
+symboliques : une seule copie physique, deux chemins valides. Le module est donc
+utilisable **installé comme plugin** et **ouvert directement comme dossier**.
 
 ## Contexte partagé (à lire systématiquement)
 

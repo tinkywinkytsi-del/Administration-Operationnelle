@@ -7,4 +7,4 @@ Convention : un dossier par skill, contenant `SKILL.md` avec le frontmatter
 
 | skill | module | objet |
 |---|---|---|
-| [`depouiller-certificats`](depouiller-certificats/SKILL.md) | soudure | lire les certificats scannés, croiser tableau et `QS/`, lister les incohérences |
+| [`depouiller-certificats`](../skills/depouiller-certificats/SKILL.md) | soudure | lire les certificats scannés, croiser tableau et `QS/`, lister les incohérences |
