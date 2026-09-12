@@ -34,8 +34,21 @@ TSI-new/01 Chantier/DMOS : QMOS/
 - **Rien n'est écrit sans accord explicite.** Les incohérences se montrent d'abord.
 - **Les certificats PDF font foi** — une valeur du tableau qui les contredit est
   une erreur du tableau, pas l'inverse.
-- Sauvegarde avant toute modification du classeur ; les formules `EDATE` doivent
-  référencer leur propre ligne après insertion/suppression.
+- ⛔ **Un PDF de certificat ne se modifie jamais.** C'est un document officiel émis
+  par l'organisme certificateur. Ni retouche, ni annotation, ni régénération, ni
+  écrasement — même pour corriger une erreur manifeste (date de naissance fausse,
+  nom mal orthographié). La seule voie est une **réédition demandée à l'organisme**.
+- ⛔ **Le classeur `certificat-qualification-soudeur.xlsx` ne s'écrase pas.** Il doit
+  rester la **copie conforme des certificats valides de `QS/`**. Aucune écriture, pas
+  même un réenregistrement par Excel pour reconstruire des caches de calcul. On
+  signale l'écart, chiffres et fichier source à l'appui ; Thomas tranche.
+- Si une écriture est un jour autorisée : sauvegarde d'abord, et les formules `EDATE`
+  doivent référencer leur propre ligne après insertion/suppression.
+- **Le poinçon fait le lien**, pas le prénom. Mapping poinçon ↔ collaborateur dans
+  `TSI-new/03 Collaborateur/collaborateur.xlsx` (feuilles `en-service`,
+  `hors-service`, `monteur-soudeur`). Vérifier là avant d'attribuer un certificat.
+- Une ligne d'anomalie se désigne par **feuille + ligne** (« Archives ligne 10 »,
+  pas « ligne 10 ») : les feuilles ont des numérotations qui se ressemblent.
 - La **confirmation semestrielle ISO 9606-1** n'est pas la fin de validité à 3 ans.
   Ne jamais confondre les deux.
 - Plages de qualification : **ne jamais les dépasser** (détail dans le prompt DMOS).

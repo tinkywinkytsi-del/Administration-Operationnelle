@@ -28,8 +28,17 @@ Certificats de qualification des soudeurs et modes opératoires de soudage.
 
 ## Règles dures
 - ⛔ Aucune écriture, aucun déplacement, aucun renommage sans accord explicite.
+- ⛔ **Un PDF de certificat ne se modifie jamais** : document officiel de l'organisme
+  certificateur. Une erreur dessus se corrige par une **réédition demandée à
+  l'organisme**, jamais localement.
+- ⛔ **Ne rien écraser dans `certificat-qualification-soudeur.xlsx`** — pas même un
+  réenregistrement par Excel. Le classeur est la copie conforme de `QS/` ; l'écart
+  se signale, il ne se corrige pas de sa propre initiative.
 - Les **certificats PDF font foi**. Le tableau qui les contredit a tort.
-- Sauvegarde du classeur **avant** toute modification.
+- **Le poinçon fait le lien, pas le prénom** : vérifier dans
+  `03 Collaborateur/collaborateur.xlsx` avant d'attribuer un certificat.
+- Désigner une anomalie par **feuille + ligne** (« Archives ligne 10 »).
+- Sauvegarde du classeur **avant** toute modification autorisée.
 - Formules `EDATE` : chaque formule référence **sa propre ligne** après
   insertion ou suppression.
 - **Confirmation semestrielle ≠ fin de validité à 3 ans.**
