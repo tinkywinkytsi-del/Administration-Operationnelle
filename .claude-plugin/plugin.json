@@ -1,0 +1,6 @@
+{
+  "name": "administration-operationnelle",
+  "version": "0.1.0",
+  "description": "Module TSI — agents, skills et commandes partagés par toutes les conversations du projet TSI (administration opérationnelle).",
+  "author": { "name": "TSI" }
+}

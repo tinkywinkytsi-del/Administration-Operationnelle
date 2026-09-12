@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "//": "Permissions du module Administration-Operationnelle. Lecture large, écriture étroite. Complété (pas remplacé) par .claude/settings.local.json, qui n'est pas versionné.",
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)",
+      "Bash(grep:*)",
+      "Bash(rg:*)",
+      "Bash(find:*)",
+      "Bash(wc:*)",
+      "Bash(date:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git fetch:*)",
+      "Bash(git branch:*)"
+    ],
+    "//deny": "Jamais de session imbriquée sans permissions — elle échapperait à cette liste.",
+    "deny": [
+      "Bash(claude --dangerously-skip-permissions:*)",
+      "Bash(claude:* --dangerously-skip-permissions:*)"
+    ]
+  }
+}
