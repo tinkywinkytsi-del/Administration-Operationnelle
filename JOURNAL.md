@@ -31,6 +31,23 @@ les lignes 2, 4 et 10 stockent des **numéros de série de date** (45476 = 03.07
   réenregistrement par Excel : il doit rester copie conforme de `QS/`.
 - Mapping poinçon ↔ collaborateur : `03 Collaborateur/collaborateur.xlsx`.
 
+## Fait — 17.09.2026 · rapport hebdomadaire
+
+- **Semaine du 07.09 requalifiée** dans `rapport_septembre_2026_v5.xlsx` : sur
+  14 fiches annoncées manquantes, **2 le sont réellement**. Les 12 autres sont
+  requalifiées sur **déclaration orale de Thomas du 17.09.2026** — affectation à
+  un autre chantier (7), vacances (4), absence (1). Le détail nominatif reste
+  dans le classeur, **hors dépôt**.
+- Récap doté d'une colonne **Chantier** avec tri par site ; les 3 onglets de
+  statut concordent désormais sur les 36 personnes. 25 jours d'absence saisis
+  dans les feuilles individuelles.
+- ⚠️ **La déclaration est la seule source** : aucun fichier ne porte
+  d'affectation de chantier, et le scan de la semaine ne contient pas ces
+  fiches. Consigné comme tel dans le classeur (colonne `Source` + note de
+  provenance) pour qu'on puisse le retrouver dans six mois.
+- 🔴 **À faire à la main** : ouvrir `v5` dans Excel et l'enregistrer une fois —
+  les formules écrites n'ont pas de valeur en cache.
+
 ## Fait — 12.09.2026
 - **Module créé de zéro** : 14 agents, `docs/ORGANISATION.md`, 3 commandes, skill
   `depouiller-certificats`, 4 prompts sources archivés.
