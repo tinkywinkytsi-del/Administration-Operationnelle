@@ -170,6 +170,13 @@ Constat de terrain, à ne pas reproduire :
 Si un dossier se retrouve avec un nom faux, **son contenu reste intact et
 accessible** — seul le nom est à corriger, et cela peut demander l'hébergeur.
 
+**Le contournement qui marche**, quand le renommage est définitivement refusé :
+créer un dossier neuf au bon nom, y **déplacer tous les messages** de l'ancien,
+vérifier le compte des deux côtés. Création de dossier et déplacement de
+messages fonctionnent là où le renommage échoue. Il reste une coquille vide,
+qui **occupe toujours son nom** — tant qu'elle existe, aucun autre dossier ne
+peut le porter. Sa suppression revient à l'hébergeur.
+
 ## ⛔ L'ordre de tri décide du classement des fils croisés
 
 Un message peut correspondre à deux critères : le laboratoire de contrôle
