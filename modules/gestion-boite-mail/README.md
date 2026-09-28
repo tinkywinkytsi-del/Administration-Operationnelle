@@ -394,28 +394,46 @@ minute pour deux mille cinq cents messages.
 
 ## État
 
-Boîte de réception vide. Structure à deux niveaux en place. **Huit règles de
-filtrage** en service : deux organismes de contrôle vers le dossier thématique,
-le courrier interne vers son dossier, un fournisseur, et quatre clients — tous
-sur **domaine d'expéditeur relevé sur pièce**.
+Boîte de réception vide. Structure à deux niveaux en place. **Dix-huit règles de
+filtrage** actives, toutes sur **domaine d'expéditeur relevé sur pièce** : onze
+clients, quatre fournisseurs, deux organismes de contrôle, et le courrier interne.
 
 Le courrier interne a été passé sur les deux dossiers de stock, comptes vérifiés
-à l'unité près. Les règles clients, elles, n'ont presque rien trouvé dans
-l'arriéré : leurs lots avaient déjà été sortis à la main. C'est attendu — voir
-« Ce que les règles ne feront pas ».
+à l'unité près. Les règles clients ont été écrites d'abord pour le **flux à
+venir** — sur l'arriéré elles ne trouvent presque rien, les lots ayant déjà été
+sortis à la main (voir « Ce que les règles ne feront pas »).
+
+**Quatre clients resteront en tri manuel** : leur courrier n'arrive jamais depuis
+un domaine à eux, mais par un bureau d'études qui sert plusieurs clients à la
+fois, ou par une plateforme de projet commune à tous les chantiers. Un seul
+mandataire couvre cinq clients. Aucune règle d'expéditeur ne peut les départager.
 
 Reste à faire :
-- **relever les domaines des clients restants**, un par un, sur pièce ;
-- pour chacun, vérifier s'il existe un **second domaine** ;
-- acter les clients **sans règle possible** (ceux qui passent par un mandataire) ;
-- **analyser le reliquat d'archives par expéditeur** — c'est le seul moyen de le
-  réduire, les règles n'y suffiront pas ;
+- **exécuter les règles** sur les dossiers de stock et mesurer, une par une ;
+- **analyser le reliquat d'archives par expéditeur** — les règles n'y suffiront pas ;
+- décider du sort du **courrier envoyé** (voir ci-dessous) ;
 - **recompter dossier par dossier** pour clore les comptes.
+
+## Trier le courrier envoyé — un second jeu de règles
+
+⛔ **Les règles d'expéditeur ne marchent pas sur les Éléments envoyés** : dans ce
+dossier l'expéditeur est toujours le titulaire. Les règles clients n'y
+trouveraient rien, et la règle du courrier interne correspondrait à **tous** les
+envois et viderait le dossier d'un coup.
+
+Pour trier les envoyés il faut des règles bâties sur la condition **Adresse de
+Destination**, avec les mêmes domaines. C'est faisable, mais cela **sort les
+messages du dossier des envois** : il n'existe alors plus d'endroit unique où
+retrouver ce qu'on a envoyé, tout est réparti par client. C'est une décision de
+fonctionnement, pas un réglage : **elle se demande.**
 
 Points ouverts :
 - un interlocuteur fournisseur écrit aussi depuis une **seconde société** :
   rattachement à trancher ;
+- un bureau d'études sert peut-être plusieurs clients alors qu'une règle le
+  rattache à un seul — à confirmer ;
+- un client n'a pas encore de règle : son seul message observé arrivait relayé
+  en interne, pas directement ;
 - un chantier reste à la racine, sans client rattaché ;
-- quatre sous-dossiers de chantier attendent une uniformisation de nom, suspendue
-  après une erreur de renommage ;
+- quatre sous-dossiers de chantier attendent une uniformisation de nom ;
 - la boîte occupe **82 % de son quota**.
