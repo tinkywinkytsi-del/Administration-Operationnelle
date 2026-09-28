@@ -11,6 +11,12 @@ fait foi, puis `contexte-partage/` — désormais renseigné : l'entreprise, les
 enjeux, et le vocabulaire métier. Parler au `coordinateur`. L'accès à la base
 documentaire iCloud est accordé automatiquement.
 
+## Boîte mail — 28.09
+
+Boîte de réception **vidée** (tout en archives, compteurs vérifiés), puis deux
+lots ressortis vers leur dossier — un thème, un client — comptés avant, vérifiés
+après. Reste : les autres domaines clients, puis les règles de filtrage serveur.
+
 ## ⚠️ En attente d'une décision
 
 1. **Soudure** — feuille « Archives » ligne 10 : un n° de certificat attribué au
