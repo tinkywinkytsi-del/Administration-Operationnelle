@@ -151,6 +151,39 @@ Constat de terrain, contre-intuitif et coûteux si on l'ignore :
 Corollaire pratique : un tri par recherche se fait **jusqu'à épuisement**, et le
 bilan se lit sur les dossiers.
 
+## ⛔ Renommer un dossier : opération à ne pas enchaîner
+
+Constat de terrain, à ne pas reproduire :
+
+- après un premier renommage, **un second renommage du même dossier échoue** :
+  le serveur répond « Could not find a part of the path … ». Le nom affiché et
+  le nom du dossier sur le disque ont divergé, et plus rien ne les réconcilie
+  depuis le webmail — ni un rechargement de la page ;
+- un renommage **déplace le dossier dans l'ordre alphabétique** dès qu'il est
+  validé. Les positions des dossiers suivants changent aussitôt.
+
+> **Un renommage se fait par clic droit sur l'élément lui-même, jamais sur une
+> position relevée dans une capture précédente.** Entre la capture et le clic,
+> la liste a pu se réordonner : on renomme alors le voisin, et on ne peut plus
+> revenir en arrière.
+
+Si un dossier se retrouve avec un nom faux, **son contenu reste intact et
+accessible** — seul le nom est à corriger, et cela peut demander l'hébergeur.
+
+## ⛔ L'ordre de tri décide du classement des fils croisés
+
+Un message peut correspondre à deux critères : le laboratoire de contrôle
+**et** le client. Il part dans le dossier du **premier lot exécuté**, pas dans
+le plus pertinent.
+
+Conséquence : un client dont toute la correspondance passe par des fils de
+contrôle peut se retrouver **sans aucun message dans son dossier**, alors que
+plusieurs dizaines le concernent — rangées ailleurs. Avant de conclure qu'un
+client n'a pas de courrier, **chercher son nom dans les dossiers déjà remplis**.
+
+Corollaire : on trie du **plus spécifique au plus général**, et on annonce
+l'ordre retenu avant de commencer.
+
 ## Méthode de mise en place
 
 1. **Relever l'existant** — arborescence actuelle, volume de l'inbox, profondeur
