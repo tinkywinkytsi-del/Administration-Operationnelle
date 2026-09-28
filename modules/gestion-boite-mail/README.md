@@ -52,8 +52,16 @@ simple étiquette, plus un niveau de classement.
 |---|---|---|
 | **Client** | un donneur d'ordre qui revient | sous `Client/` |
 | **Chantier** | une affaire qui génère des échanges suivis | sous son client |
+| **Fournisseur** | qui **vend** ou **livre** : commandes, bons, factures, certificats matières | sous `Fournisseur/` |
 | **Thème permanent** | un processus de l'entreprise, tous clients confondus | à la racine |
 | **Archives** | ce qui est clos, ou ce qui ne demande rien | `1- Archives/` |
+
+⚠️ **Fournisseur ≠ mandataire.** Un bureau d'ingénieurs écrit beaucoup — souvent
+plus qu'un fournisseur — mais il **représente un maître d'ouvrage** : son
+courrier appartient au client, pas à une catégorie « fournisseur ». On les
+distingue à l'objet : *confirmation de commande, bon de livraison, certificat
+matières* → fournisseur ; *nom de chantier, PV de séance, adjudication* →
+mandataire d'un client.
 
 Un dossier se crée sur **du volume récurrent constaté**, jamais par anticipation.
 
