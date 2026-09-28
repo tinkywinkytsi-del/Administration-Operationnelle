@@ -30,6 +30,21 @@ TSI-new/01 Chantier/DMOS : QMOS/
   **`TSI-005` est en plus** et n'apparaît dans aucune plage de qualification décrite.
 - `01 Demande/` contient 11 demandes `TSI-010-<prénom>.pdf` (juin 2026).
 
+## Tenir le tableau DMOS/QMOS
+
+`01 Chantier/DMOS : QMOS/dmos-qmos.xlsx` — un DMOS par ligne, avec sa plage de
+qualification. Les QMOS sont dans `2-QMOS/`, un PDF par certificat.
+
+⛔ **La plage se lit dans le QMOS, jamais ailleurs.** Colonne
+« Geltungsbereich / domaine de validité », à ne pas confondre avec la colonne
+« Durchführung / exécuté », qui donne la pièce d'essai. Les certificats de
+soudeur portent des plages différentes : eux qualifient une personne, le QMOS
+qualifie le mode opératoire.
+
+Les QMOS récents sont des PDF numériques (lecture directe) ; ceux de 2021 sont
+des scans dont la couche texte est inexploitable — les rendre en image à 320 dpi,
+où ils redeviennent parfaitement lisibles.
+
 ## Règles dures
 - **Rien n'est écrit sans accord explicite.** Les incohérences se montrent d'abord.
 - **Les certificats PDF font foi** — une valeur du tableau qui les contredit est

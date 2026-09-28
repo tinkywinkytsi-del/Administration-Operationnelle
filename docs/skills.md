@@ -8,3 +8,5 @@ Convention : un dossier par skill, contenant `SKILL.md` avec le frontmatter
 | skill | module | objet |
 |---|---|---|
 | [`depouiller-certificats`](../skills/depouiller-certificats/SKILL.md) | soudure | lire les certificats scannés, croiser tableau et `QS/`, lister les incohérences |
+| [`saisir-fiches-heures`](../skills/saisir-fiches-heures/SKILL.md) | rapport-hebdomadaire | saisir les fiches d'heures, tenir les récapitulatifs, ranger les scans |
+| [`essai-pression`](../skills/essai-pression/SKILL.md) | — | volume d'eau d'un réseau CAD, pression d'épreuve, lecture des rapports de manomètre |

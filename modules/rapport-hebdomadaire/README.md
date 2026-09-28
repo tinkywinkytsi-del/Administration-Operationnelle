@@ -25,6 +25,18 @@ collaborateurs n'y figure pas, ni les situations individuelles. L'agent lit ces
 éléments dans `collaborateur.xlsx` et dans le prompt original, à chaque fois.
 Détail de ce qui a été retiré : fin du fichier de conversation.
 
+## Rangement des scans
+
+Un PDF par semaine, nommé **par le lundi** : `rapport-JJ-MM-AAAA.pdf`, dans le
+dossier du mois de ce lundi. Un scan qui mélange deux semaines se scinde ; les
+versos vierges restent avec leur recto ; les sources partent en `00 Archive`.
+
+**Test de cohérence** : chaque date de nom de fichier doit tomber un lundi. C'est
+ce contrôle qui a révélé un fichier mal daté d'un jour depuis des mois, et une
+fiche d'avril rangée dans le dossier de mai.
+
+Procédure complète de saisie : skill [`saisir-fiches-heures`](../../skills/saisir-fiches-heures/SKILL.md).
+
 ## Règles dures
 - **Ne jamais repartir d'un template vierge** ni recréer le mois : ouvrir la
   version `vN` la plus haute, compléter, sauver en `vN+1`. **Une version = une
