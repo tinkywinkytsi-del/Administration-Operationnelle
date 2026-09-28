@@ -132,6 +132,25 @@ façon de la contrôler.
 **arrivés pendant l'opération**. C'est normal, et c'est une raison de plus de
 relever les compteurs au dernier moment.
 
+## ⛔ Le nombre affiché par la recherche n'est pas le nombre réel
+
+Constat de terrain, contre-intuitif et coûteux si on l'ignore :
+
+- une recherche annonce **N résultats**, « Tout Sélectionner » affiche
+  « N Sélectionné » — et le déplacement en emporte **davantage que N** ;
+- relancer la même recherche juste après ramène **encore des résultats**, parfois
+  des centaines. Il faut répéter jusqu'à zéro, et **revérifier plus tard** :
+  l'index de recherche est en retard sur la réalité de la boîte ;
+- un « 0 élément » après un déplacement ne prouve donc **rien**.
+
+> **Seuls les compteurs de dossiers font foi.** Le chiffre en bas de la liste,
+> dossier par dossier, est exact. On contrôle un tri en vérifiant que la somme
+> de tous les dossiers retombe sur le total de départ — pas en se fiant au
+> nombre annoncé par une recherche.
+
+Corollaire pratique : un tri par recherche se fait **jusqu'à épuisement**, et le
+bilan se lit sur les dossiers.
+
 ## Méthode de mise en place
 
 1. **Relever l'existant** — arborescence actuelle, volume de l'inbox, profondeur
