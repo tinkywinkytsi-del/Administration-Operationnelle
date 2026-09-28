@@ -56,6 +56,16 @@ simple étiquette, plus un niveau de classement.
 | **Thème permanent** | un processus de l'entreprise, tous clients confondus | à la racine |
 | **Archives** | ce qui est clos, ou ce qui ne demande rien | `1- Archives/` |
 
+⚠️ **Un mandataire peut servir plusieurs clients.** Un bureau d'ingénieurs
+n'appartient donc pas à un client une fois pour toutes : **c'est le message qui
+décide, pas l'expéditeur**. Le critère est *qui est en copie* — les
+destinataires d'un message trahissent le maître d'ouvrage concerné.
+
+Conséquence : un lot trié sur le nom du mandataire doit être **re-vérifié
+client par client** à l'intérieur de son dossier d'arrivée, en cherchant le
+domaine de chaque client possible. Tant que la vérification n'est pas faite,
+le rattachement est une hypothèse, pas un fait.
+
 ⚠️ **Fournisseur ≠ mandataire.** Un bureau d'ingénieurs écrit beaucoup — souvent
 plus qu'un fournisseur — mais il **représente un maître d'ouvrage** : son
 courrier appartient au client, pas à une catégorie « fournisseur ». On les
