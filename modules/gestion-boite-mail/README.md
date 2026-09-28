@@ -244,6 +244,26 @@ fournisseur, le nom de la société a ramené 135 résultats, son adresse de con
 129 — les six de différence étaient des messages internes qui ne faisaient que
 citer la société. Six erreurs de classement évitées pour un caractère de plus.
 
+### Un dossier par thème : mesurer les trois formulations avant de trancher
+
+Quand on veut regrouper un **thème** et non un expéditeur — les offres, par
+exemple — on ne cherche pas un mot, on mesure **plusieurs formulations** et on
+compare :
+
+| formulation | volume relevé |
+|---|---|
+| la plus précise (deux mots liés) | 133 |
+| une variante précise | 26 |
+| **le mot seul** | **289** |
+
+Le mot seul double le volume, et l'échantillon montre pourquoi : le **premier
+résultat** était un remerciement de festival, suivi d'un prêt de personnel et
+d'une candidature. Le mot apparaissait dans une tournure de politesse.
+
+> **La règle : on chiffre les formulations précises, on chiffre le mot seul, et
+> on montre l'écart.** Un dossier thématique se construit sur les formulations
+> précises ; le mot seul se propose, il ne s'applique pas.
+
 ## ⛔ La recherche avancée ne sait pas déplacer — et elle mord
 
 La fenêtre *Recherche Avancée* sait compter et filtrer finement — expéditeur
