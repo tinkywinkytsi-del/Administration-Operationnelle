@@ -49,6 +49,6 @@
 | terme | définition |
 |---|---|
 | **fiche hebdomadaire** | feuille d'heures et de frais remplie à la main, une par collaborateur et par semaine |
-| **affaire / n° d'affaire** | identifiant d'un chantier, ex. `5331`. Une offre remportée devient une affaire |
+| **affaire / n° d'affaire** | identifiant d'un chantier, ex. `XXXX`. Une offre remportée devient une affaire |
 | **frais** | repas + déplacement en un seul montant sur la fiche. Grille : 25 / 65 / 105 / 145 |
 | **PV de contrôle de chantier** | procès-verbal des 3 contrôles annuels : écarts, actions correctives, suites |
