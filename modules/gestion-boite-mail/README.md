@@ -72,6 +72,7 @@ messagerie ne dit de façon fiable qu'un chantier est fini.
 | déplacer un dossier | **clic droit** sur le dossier → *Déplacer le Dossier* |
 | règles automatiques | *Paramètres* → *Filtrage de Contenu* |
 | chercher par dossier + date | *Recherche Avancée* → portée **Courriel**, puis critères *Dossier* et *Reçu avant / après* |
+| déplacer en masse | dans la liste : *Sélectionner* → *Tout Sélectionner*, puis menu **⋮** → *Déplacer* |
 | renommer un dossier | **clic droit** → *Modifier le dossier* |
 
 ⚠️ Pièges constatés :
@@ -105,6 +106,31 @@ Conformément à `contexte-partage/regles-tsi.md` §0 :
 
 Créer un dossier vide est la seule action sans risque : elle n'affecte aucun
 message.
+
+## Le déplacement de masse — procédure vérifiée
+
+La seule opération qui déplace des milliers de messages d'un coup, et la seule
+façon de la contrôler.
+
+1. **Relever les deux compteurs avant** : le dossier source et le dossier
+   destination, chacun ouvert, chiffre lu en bas de la liste. Sans ces deux
+   nombres, l'opération n'est pas vérifiable.
+2. *Sélectionner* → *Tout Sélectionner*. L'en-tête affiche alors
+   « N Sélectionné » : **c'est la confirmation que la sélection porte sur tout
+   le dossier**, pas sur la page visible. Si le nombre ne correspond pas au
+   compteur, on s'arrête.
+3. Menu **⋮** → *Déplacer*.
+4. ⛔ **Changer la destination.** Le dialogue propose par défaut le **premier
+   dossier par ordre alphabétique**, jamais celui qu'on veut. Valider sans
+   regarder envoie tout au mauvais endroit.
+5. Relire la destination affichée, puis *Déplacer*. Une barre de progression
+   suit l'opération — compter environ une minute pour 10 000 messages.
+6. **Vérifier l'égalité** : `source avant − source après = destination après −
+   destination avant`. Si elle ne tombe pas juste, le dire immédiatement.
+
+⚠️ Le compteur de la source peut remonter juste après : ce sont les messages
+**arrivés pendant l'opération**. C'est normal, et c'est une raison de plus de
+relever les compteurs au dernier moment.
 
 ## Méthode de mise en place
 
