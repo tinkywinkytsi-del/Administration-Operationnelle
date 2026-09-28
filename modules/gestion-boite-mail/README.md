@@ -184,6 +184,12 @@ client n'a pas de courrier, **chercher son nom dans les dossiers déjà remplis*
 Corollaire : on trie du **plus spécifique au plus général**, et on annonce
 l'ordre retenu avant de commencer.
 
+> **Arbitrage retenu — le contrôle prime sur le client.** Un message qui
+> appartient à la fois à un fil de contrôle et à un client **reste dans le
+> dossier thématique du contrôle**. On cherche ces documents par nature de
+> pièce, pas par donneur d'ordre. Un dossier client peut donc légitimement
+> paraître vide : son courrier de contrôle est ailleurs, et c'est voulu.
+
 ## Méthode de mise en place
 
 1. **Relever l'existant** — arborescence actuelle, volume de l'inbox, profondeur
