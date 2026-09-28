@@ -13,23 +13,24 @@ documentaire iCloud est accordé automatiquement.
 
 ## Boîte mail — 28.09
 
-Boîte de réception **vidée**, stock ressorti par lots, puis **18 règles de
-filtrage** posées — toutes sur domaine d'expéditeur relevé sur pièce.
+Boîte de réception **vide**, dossier de travail **vidé** dans les archives.
+**19 règles de filtrage** actives, toutes sur domaine d'expéditeur relevé sur
+pièce : onze clients, six fournisseurs, deux organismes de contrôle, le courrier
+interne.
 
-Exécutées sur les deux dossiers de stock : le dossier de travail passe de 348 à
-**162** (186 messages rangés) ; le dossier d'archives ne bouge pas, **et c'est
-normal** — son reliquat est par construction ce qu'aucune règle ne couvre.
+Archives passées de **1 993 à 1 668** dans la journée : deux fournisseurs et un
+laboratoire de contrôle sortis en bloc, un dossier thématique créé pour les
+offres, et un gros fournisseur traité par règle.
 
 ⛔ **Quatre clients n'auront jamais de règle** : leur courrier arrive par un
-bureau d'études qui sert plusieurs clients, ou par une plateforme de projet
-commune. Un seul mandataire couvre cinq clients.
+bureau d'études multi-clients ou une plateforme de projet. Un seul mandataire
+couvre cinq clients.
 
 ⛔ **Le courrier envoyé demande un jeu de règles distinct**, sur l'adresse de
-**destination** : dans ce dossier l'expéditeur est toujours le titulaire, et la
-règle du courrier interne y viderait tout d'un coup.
+**destination** : dans ce dossier l'expéditeur est toujours le titulaire.
 
-⚠️ Ne jamais enchaîner des totaux **calculés** : seuls les compteurs de dossiers
-font foi, relus après chaque opération.
+⚠️ Seuls les compteurs de dossiers font foi, relus après chaque opération. Un
+écart d'une unité en fin de journée = du courrier arrivé entre-temps.
 
 ## ⚠️ En attente d'une décision
 
