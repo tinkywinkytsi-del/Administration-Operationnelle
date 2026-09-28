@@ -71,12 +71,20 @@ messagerie ne dit de façon fiable qu'un chantier est fini.
 | créer un dossier | bouton **dossier** en tête du volet des dossiers → *Nouveau Dossier* ; le champ **Dossier Parent** décide du niveau |
 | déplacer un dossier | **clic droit** sur le dossier → *Déplacer le Dossier* |
 | règles automatiques | *Paramètres* → *Filtrage de Contenu* |
+| renommer un dossier | **clic droit** → *Modifier le dossier* |
 
-⚠️ Deux pièges constatés :
+⚠️ Pièges constatés :
 - le menu **Déplacer le Dossier** propose `1- Archives` **par défaut** — valider
   sans changer la destination envoie le dossier aux archives ;
 - déplacer un dossier **emporte tous ses messages**. C'est réversible, mais il
-  faut le savoir avant de cliquer.
+  faut le savoir avant de cliquer ;
+- le filtre de la liste ne connaît **aucun critère de date** — seulement lu/non
+  lu, marqué, catégories ;
+- la **Recherche Avancée**, qui seule permet un intervalle de dates, s'ouvre
+  dans une **fenêtre surgissante**. Un agent pilotant le navigateur ne peut pas
+  la déclencher : les popups n'obéissent qu'à un clic humain. Tout comptage ou
+  tri de masse par date passe donc par un clic de Thomas pour ouvrir la
+  fenêtre.
 
 ## Ce qui ne se fait jamais sans validation explicite
 
