@@ -274,6 +274,11 @@ exécutée sur le dossier.
 > règle neuve, le sélecteur de section ne répond pas — ce n'est pas un bug de
 > l'affichage, c'est l'ordre imposé par l'outil.
 >
+> ⛔ **L'URL `.../content-filters/new` ne réinitialise pas l'éditeur.** Y revenir
+> après avoir créé une règle rouvre la **précédente**, et les clics suivants
+> modifient cette règle-là au lieu d'en créer une nouvelle. On repasse toujours
+> par le bouton **« Nouveau » de la liste des règles**.
+>
 > **Où se trouve ce sélecteur** : en colonne étroite, l'écran n'affiche qu'une
 > section à la fois. Options, Conditions et Actions sont dans le **menu déroulant
 > du bandeau bleu, en haut de l'éditeur** — pas dans la page. Tant qu'on le
@@ -300,6 +305,50 @@ Actions disponibles : supprimer, rebond, **déplacer**, ajouter une en-tête,
 ajouter un texte au sujet. Conditions disponibles : adresse d'expéditeur,
 mots ou phrases, adresse de destination, pièces jointes.
 
+## Ce qu'une règle peut couvrir — et ce qu'elle ne peut pas
+
+Avant d'écrire une règle pour un client, il faut savoir **depuis quel domaine ce
+client écrit**. Cela se lit sur une pièce, jamais sur le nom de la société : une
+règle bâtie sur un domaine supposé ne se déclenche jamais, **et elle échoue en
+silence**, ce qui est pire que pas de règle du tout.
+
+Comment le relever : ouvrir le dossier du client, ouvrir un message **d'un
+expéditeur externe**, lire l'adresse complète de l'expéditeur.
+
+> ⚠️ **Le premier message d'un dossier n'est pas représentatif.** Dans un dossier
+> de chantier, le message le plus récent est souvent celui d'un fournisseur qui
+> écrit *au sujet* de ce chantier. Prendre un expéditeur qui revient plusieurs
+> fois dans la liste.
+
+Trois cas se présentent, et un seul donne une règle :
+
+1. **Le client écrit depuis son propre domaine** → règle possible, sur ce domaine.
+2. **Le client écrit depuis plusieurs domaines** — une société sœur, une agence,
+   une entité reprise. C'est fréquent. La condition accepte **plusieurs domaines,
+   un par ligne**, et ils fonctionnent en *ou*. Quand une règle ne ramène rien
+   alors que le dossier est plein, c'est le premier réflexe : chercher le
+   **second domaine** avant de conclure que la règle est mauvaise.
+3. **Le client n'écrit jamais lui-même** : tout passe par son bureau d'études,
+   qui sert aussi d'autres clients, ou par des collègues en interne. ⛔ **Aucune
+   règle n'est possible** — le classement dépend de *qui est en copie*, ce qu'un
+   filtre serveur ne sait pas lire. Ces clients restent en tri manuel, et il faut
+   le dire plutôt que de poser une règle qui se tromperait de dossier.
+
+> ⚠️ Même piège côté fournisseurs : un interlocuteur peut écrire depuis **deux
+> sociétés différentes**. Les rattacher au même dossier est une décision de
+> gestion, pas une évidence technique : **on demande**.
+
+## Ce que les règles ne feront pas : vider l'arriéré
+
+Une règle passée sur un dossier de stock ne déplace que ce qui correspond à sa
+condition. Quand le lot d'un client a déjà été sorti à la main, la règle y trouve
+**zéro message** — et c'est le résultat normal, pas un échec.
+
+> **Le reliquat d'un dossier d'archives est, par construction, exactement ce
+> qu'aucune règle ne couvre.** Les règles servent le **flux à venir**. Pour
+> réduire l'arriéré, il faut un autre travail : relever les expéditeurs les plus
+> fréquents de ce qui reste, et décider quoi en faire.
+
 ## Appliquer les règles au courrier déjà reçu
 
 Clic droit sur un dossier → **« Exécuter le filtre de contenu »**. Cette entrée
@@ -308,7 +357,15 @@ range un dossier entier d'un coup : c'est **la bonne façon de traiter un stock*
 bien plus sûre que des dizaines de tris manuels.
 
 La boîte de dialogue demande deux choses : le **dossier**, déjà rempli par le
-clic droit, et **une règle à exécuter — une seule**. On ne lance donc pas « toutes
+clic droit, et **une règle à exécuter — une seule**.
+
+> ⚠️ **Le sélecteur de règle est capricieux en colonne étroite.** Il n'affiche que
+> cinq entrées, la molette le referme au lieu de le faire défiler, et un clic sur
+> la dernière ligne visible ne sélectionne rien. Ce qui marche : ouvrir la boîte
+> de dialogue **neuve**, ouvrir le sélecteur, et cliquer une entrée qui **n'est
+> pas la dernière visible**. À la réouverture, la liste se recentre sur la valeur
+> courante : on avance donc d'une règle à la fois. **Toujours relire le nom
+> affiché avant de valider** — une exécution sur la mauvaise règle est silencieuse. On ne lance donc pas « toutes
 les règles » sur un dossier : on les passe une par une, ce qui est une chance,
 car **l'ordre reste sous contrôle** et chaque passe se mesure isolément.
 Le traitement affiche une barre de progression et rend la main en moins d'une
@@ -337,24 +394,28 @@ minute pour deux mille cinq cents messages.
 
 ## État
 
-Étapes 1, 3, 4 faites, 5 et 6 engagées : l'existant est relevé, la structure à
-deux niveaux est arrêtée, les dossiers clients et fournisseurs sont créés, la
-boîte de réception est vide et le stock est en cours de répartition.
+Boîte de réception vide. Structure à deux niveaux en place. **Huit règles de
+filtrage** en service : deux organismes de contrôle vers le dossier thématique,
+le courrier interne vers son dossier, un fournisseur, et quatre clients — tous
+sur **domaine d'expéditeur relevé sur pièce**.
 
-Deux règles de filtrage sont en service : un laboratoire de contrôle vers son
-dossier thématique, et le **courrier interne** — filtré sur le domaine de
-l'entreprise — vers son dossier dédié. La seconde a été passée sur les deux
-dossiers de stock, comptes vérifiés des deux côtés à l'unité près.
+Le courrier interne a été passé sur les deux dossiers de stock, comptes vérifiés
+à l'unité près. Les règles clients, elles, n'ont presque rien trouvé dans
+l'arriéré : leurs lots avaient déjà été sortis à la main. C'est attendu — voir
+« Ce que les règles ne feront pas ».
 
-Reste à faire, dans l'ordre :
-6. **écrire les règles restantes** — une par client récurrent, de la plus
-   spécifique à la plus générale ;
-5. **finir le tri du stock** en exécutant ces règles sur les dossiers de stock ;
-7. **recompter dossier par dossier** pour clore les comptes.
+Reste à faire :
+- **relever les domaines des clients restants**, un par un, sur pièce ;
+- pour chacun, vérifier s'il existe un **second domaine** ;
+- acter les clients **sans règle possible** (ceux qui passent par un mandataire) ;
+- **analyser le reliquat d'archives par expéditeur** — c'est le seul moyen de le
+  réduire, les règles n'y suffiront pas ;
+- **recompter dossier par dossier** pour clore les comptes.
 
 Points ouverts :
+- un interlocuteur fournisseur écrit aussi depuis une **seconde société** :
+  rattachement à trancher ;
 - un chantier reste à la racine, sans client rattaché ;
 - quatre sous-dossiers de chantier attendent une uniformisation de nom, suspendue
-  après une erreur de renommage (voir plus haut) ;
-- la boîte occupe **82 % de son quota** — à surveiller avant que le serveur
-  refuse le courrier entrant.
+  après une erreur de renommage ;
+- la boîte occupe **82 % de son quota**.
