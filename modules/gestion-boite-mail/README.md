@@ -28,27 +28,55 @@ poser de règles la laisse se remplir à nouveau la semaine suivante. **Les deux
 dans cet ordre : d'abord comprendre le stock, car c'est lui qui dicte les
 règles.**
 
-## Principe de classement
+## Principe de classement — deux niveaux
 
-Un dossier se crée quand il y a **du volume récurrent**, pas par anticipation.
-Trois familles :
+L'arborescence **reproduit celle du classement papier/iCloud**, `01 Chantier/Client/<client>/`.
+C'est délibéré : une seule logique à apprendre, et un collaborateur qui sait
+ranger un dossier sait ranger un mail.
 
-| famille | critère | exemple de forme |
+```
+Client/                     <- un seul dossier parent, au singulier
+    <Client>/               <- un dossier par donneur d'ordre récurrent
+        <Chantier>/         <- un sous-dossier par affaire de ce client
+<Thème>/                    <- les processus permanents restent à la racine
+1- Archives/                <- ce qui est clos ou sans suite
+```
+
+**Le client prime sur la géographie.** Un chantier se classe sous le donneur
+d'ordre qui le commande, pas sous le canton où il se trouve : c'est le client
+qui paie, relance et réceptionne, donc c'est lui qui structure les échanges.
+Un nom de chantier peut garder son préfixe géographique — il devient alors une
+simple étiquette, plus un niveau de classement.
+
+| famille | critère de création | où |
 |---|---|---|
-| **Affaire / chantier** | un chantier qui génère des échanges suivis | `<Canton>-<Chantier>` |
-| **Thème permanent** | un processus de l'entreprise qui revient toujours | `Radiographies`, `Attestations`, `Appels d'offres` |
-| **Archive** | ce qui n'est ni l'un ni l'autre et ne demande rien | `Archive` |
+| **Client** | un donneur d'ordre qui revient | sous `Client/` |
+| **Chantier** | une affaire qui génère des échanges suivis | sous son client |
+| **Thème permanent** | un processus de l'entreprise, tous clients confondus | à la racine |
+| **Archives** | ce qui est clos, ou ce qui ne demande rien | `1- Archives/` |
 
-**Règle du canton en tête** pour les chantiers : le préfixe géographique regroupe
-visuellement les affaires d'un même donneur d'ordre et rend la liste lisible
-quand elle grandit.
+Un dossier se crée sur **du volume récurrent constaté**, jamais par anticipation.
 
 ## Cycle de vie d'un dossier de chantier
 
 Un chantier se termine, son dossier ne se supprime pas : il **descend** en
-sous-dossier d'`Archive`. Ce déplacement est **manuel et décidé par Thomas** —
+sous-dossier d'archives. Ce déplacement est **manuel et décidé par Thomas** —
 un agent ne clôt jamais un chantier de lui-même, parce que rien dans la
 messagerie ne dit de façon fiable qu'un chantier est fini.
+
+## Le geste, dans SmarterMail
+
+| action | chemin |
+|---|---|
+| créer un dossier | bouton **dossier** en tête du volet des dossiers → *Nouveau Dossier* ; le champ **Dossier Parent** décide du niveau |
+| déplacer un dossier | **clic droit** sur le dossier → *Déplacer le Dossier* |
+| règles automatiques | *Paramètres* → *Filtrage de Contenu* |
+
+⚠️ Deux pièges constatés :
+- le menu **Déplacer le Dossier** propose `1- Archives` **par défaut** — valider
+  sans changer la destination envoie le dossier aux archives ;
+- déplacer un dossier **emporte tous ses messages**. C'est réversible, mais il
+  faut le savoir avant de cliquer.
 
 ## Ce qui ne se fait jamais sans validation explicite
 
@@ -81,4 +109,18 @@ message.
 
 ## État
 
-Étape 1 en cours. Aucune arborescence n'est arrêtée à ce jour.
+Étapes 1, 3 et 4 faites : l'existant est relevé, la structure à deux niveaux est
+arrêtée et les dossiers clients sont créés, les chantiers déjà suivis y sont
+rattachés.
+
+Reste à faire, dans l'ordre :
+2. **mesurer le stock** — quels expéditeurs font le volume, sur 3 mois ;
+5. **trier le stock**, lot par lot, chaque lot annoncé avec son compte ;
+6. **poser les règles de filtrage** pour que le flux futur se range seul ;
+7. **vérifier** les comptes avant/après.
+
+Points ouverts :
+- un chantier reste à la racine, sans client rattaché ;
+- la boîte occupe **82 % de son quota** — à surveiller avant que le serveur
+  refuse le courrier entrant ;
+- aucune règle de filtrage n'a été vue dans le compte ; à confirmer.
