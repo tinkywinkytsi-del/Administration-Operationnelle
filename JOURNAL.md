@@ -13,21 +13,23 @@ documentaire iCloud est accordé automatiquement.
 
 ## Boîte mail — 28.09
 
-Boîte de réception **vidée**, puis le stock ressorti par lots vers une vingtaine
-de dossiers clients, fournisseurs et thématiques. Deux règles de filtrage en
-service, dont celle du **courrier interne** (domaine de l'entreprise), passée sur
-les deux dossiers de stock : comptes vérifiés à l'unité près des deux côtés.
-Reste ~2 000 messages à répartir et les règles par client à écrire.
+Boîte de réception **vidée**, stock ressorti par lots, puis **18 règles de
+filtrage** posées — toutes sur domaine d'expéditeur relevé sur pièce.
+
+Exécutées sur les deux dossiers de stock : le dossier de travail passe de 348 à
+**162** (186 messages rangés) ; le dossier d'archives ne bouge pas, **et c'est
+normal** — son reliquat est par construction ce qu'aucune règle ne couvre.
+
+⛔ **Quatre clients n'auront jamais de règle** : leur courrier arrive par un
+bureau d'études qui sert plusieurs clients, ou par une plateforme de projet
+commune. Un seul mandataire couvre cinq clients.
+
+⛔ **Le courrier envoyé demande un jeu de règles distinct**, sur l'adresse de
+**destination** : dans ce dossier l'expéditeur est toujours le titulaire, et la
+règle du courrier interne y viderait tout d'un coup.
 
 ⚠️ Ne jamais enchaîner des totaux **calculés** : seuls les compteurs de dossiers
-font foi, et il faut les relire après chaque opération.
-
-⛔ **Un dossier de chantier porte un nom faux** (renommage visé un cran trop bas,
-puis serveur incapable de le corriger). Contenu intact — nom à corriger par
-l'hébergeur. Quatre renommages restent suspendus.
-
-⚠️ Un client peut écrire depuis le **domaine de son bureau d'ingénieurs** : le
-terme de recherche se demande, il ne se devine pas.
+font foi, relus après chaque opération.
 
 ## ⚠️ En attente d'une décision
 
