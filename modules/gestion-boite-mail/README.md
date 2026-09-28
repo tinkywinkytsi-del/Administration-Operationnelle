@@ -239,6 +239,32 @@ s'en aperçoive.
 une chaîne de caractères dans leurs noms de chantier. Le mot le plus long et le
 plus spécifique gagne, et la règle la plus précise doit s'exécuter **en premier**.
 
+⚠️ Corollaire utile : **chercher l'adresse complète plutôt que le nom**. Sur un
+fournisseur, le nom de la société a ramené 135 résultats, son adresse de contact
+129 — les six de différence étaient des messages internes qui ne faisaient que
+citer la société. Six erreurs de classement évitées pour un caractère de plus.
+
+## ⛔ La recherche avancée ne sait pas déplacer — et elle mord
+
+La fenêtre *Recherche Avancée* sait compter et filtrer finement — expéditeur
+seul, dossier, pièces jointes — mais ses seules actions sont **Ouvrir,
+Supprimer, Télécharger**. Elle **ne déplace pas**. On s'en sert pour mesurer,
+jamais pour agir.
+
+> ⛔ Sa grille de résultats a une **case à cocher par ligne et un bouton
+> Supprimer** juste au-dessus. En colonne étroite, un clic destiné à un menu
+> atterrit dans la grille et coche des lignes. **Après toute manipulation dans
+> cette fenêtre, vérifier qu'aucune case n'est cochée** — le bouton Supprimer
+> redevient actif dès la première.
+
+Elle ne se réinitialise pas non plus quand on recharge son adresse : les
+résultats précédents restent affichés et les clics « du formulaire » tombent
+dans la grille. Pour repartir d'un formulaire vierge, utiliser **Réinitialiser**.
+
+Pour un tri de masse, la bonne voie reste la recherche du dossier lui-même
+(qui, elle, permet *Tout Sélectionner* → *Déplacer*), ou une règle de filtrage
+exécutée sur le dossier.
+
 ## Créer une règle de filtrage — la marche à suivre
 
 *Paramètres → Filtrage de Contenu → Nouveau.*
@@ -247,6 +273,11 @@ plus spécifique gagne, et la règle la plus précise doit s'exécuter **en prem
 > n'apparaissent qu'une fois la règle enregistrée une première fois.** Sur une
 > règle neuve, le sélecteur de section ne répond pas — ce n'est pas un bug de
 > l'affichage, c'est l'ordre imposé par l'outil.
+>
+> **Où se trouve ce sélecteur** : en colonne étroite, l'écran n'affiche qu'une
+> section à la fois. Options, Conditions et Actions sont dans le **menu déroulant
+> du bandeau bleu, en haut de l'éditeur** — pas dans la page. Tant qu'on le
+> cherche dans le formulaire, on tourne en rond.
 
 Séquence qui fonctionne :
 
@@ -276,6 +307,19 @@ reste grisée tant qu'aucune règle n'existe. Une fois les règles écrites, ell
 range un dossier entier d'un coup : c'est **la bonne façon de traiter un stock**,
 bien plus sûre que des dizaines de tris manuels.
 
+La boîte de dialogue demande deux choses : le **dossier**, déjà rempli par le
+clic droit, et **une règle à exécuter — une seule**. On ne lance donc pas « toutes
+les règles » sur un dossier : on les passe une par une, ce qui est une chance,
+car **l'ordre reste sous contrôle** et chaque passe se mesure isolément.
+Le traitement affiche une barre de progression et rend la main en moins d'une
+minute pour deux mille cinq cents messages.
+
+> ⛔ **Ne jamais exécuter une règle « expéditeur interne » sur les Éléments
+> envoyés.** Tout message envoyé par le titulaire porte le domaine de
+> l'entreprise : la règle viderait le dossier des envois dans le dossier interne.
+> La règle est faite pour le courrier **reçu** ; on ne la lance que sur les
+> dossiers de courrier reçu.
+
 ## Méthode de mise en place
 
 1. **Relever l'existant** — arborescence actuelle, volume de l'inbox, profondeur
@@ -293,18 +337,24 @@ bien plus sûre que des dizaines de tris manuels.
 
 ## État
 
-Étapes 1, 3 et 4 faites : l'existant est relevé, la structure à deux niveaux est
-arrêtée et les dossiers clients sont créés, les chantiers déjà suivis y sont
-rattachés.
+Étapes 1, 3, 4 faites, 5 et 6 engagées : l'existant est relevé, la structure à
+deux niveaux est arrêtée, les dossiers clients et fournisseurs sont créés, la
+boîte de réception est vide et le stock est en cours de répartition.
+
+Deux règles de filtrage sont en service : un laboratoire de contrôle vers son
+dossier thématique, et le **courrier interne** — filtré sur le domaine de
+l'entreprise — vers son dossier dédié. La seconde a été passée sur les deux
+dossiers de stock, comptes vérifiés des deux côtés à l'unité près.
 
 Reste à faire, dans l'ordre :
-2. **mesurer le stock** — quels expéditeurs font le volume ;
-5. **trier le stock**, lot par lot, chaque lot annoncé avec son compte ;
-6. **poser les règles de filtrage** pour que le flux futur se range seul ;
-7. **vérifier** les comptes avant/après.
+6. **écrire les règles restantes** — une par client récurrent, de la plus
+   spécifique à la plus générale ;
+5. **finir le tri du stock** en exécutant ces règles sur les dossiers de stock ;
+7. **recompter dossier par dossier** pour clore les comptes.
 
 Points ouverts :
 - un chantier reste à la racine, sans client rattaché ;
+- quatre sous-dossiers de chantier attendent une uniformisation de nom, suspendue
+  après une erreur de renommage (voir plus haut) ;
 - la boîte occupe **82 % de son quota** — à surveiller avant que le serveur
-  refuse le courrier entrant ;
-- aucune règle de filtrage n'a été vue dans le compte ; à confirmer.
+  refuse le courrier entrant.

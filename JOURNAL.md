@@ -13,23 +13,21 @@ documentaire iCloud est accordé automatiquement.
 
 ## Boîte mail — 28.09
 
-Boîte de réception **vidée** (tout en archives), puis une vingtaine de lots
-ressortis vers leur dossier : deux sources de contrôle vers un thème, quinze
-clients, trois fournisseurs. Environ **2 800 messages** restent en archives.
+Boîte de réception **vidée**, puis le stock ressorti par lots vers une vingtaine
+de dossiers clients, fournisseurs et thématiques. Deux règles de filtrage en
+service, dont celle du **courrier interne** (domaine de l'entreprise), passée sur
+les deux dossiers de stock : comptes vérifiés à l'unité près des deux côtés.
+Reste ~2 000 messages à répartir et les règles par client à écrire.
 
 ⚠️ Ne jamais enchaîner des totaux **calculés** : seuls les compteurs de dossiers
-font foi, et il faut les relire. Un recomptage dossier par dossier reste à faire.
+font foi, et il faut les relire après chaque opération.
 
 ⛔ **Un dossier de chantier porte un nom faux** (renommage visé un cran trop bas,
-puis serveur incapable de le corriger : « Could not find a part of the path »).
-Contenu intact et accessible — le nom est à corriger par l'hébergeur.
+puis serveur incapable de le corriger). Contenu intact — nom à corriger par
+l'hébergeur. Quatre renommages restent suspendus.
 
-⚠️ Un client peut écrire depuis le **domaine de son bureau d'ingénieurs**, pas
-depuis le sien : le terme de recherche se demande, il ne se devine pas.
-
-⚠️ Le nombre annoncé par une recherche **sous-estime** le réel, et un « 0 »
-après déplacement ne prouve rien : seuls les compteurs de dossiers font foi.
-Reste : les autres domaines clients, puis les règles de filtrage serveur.
+⚠️ Un client peut écrire depuis le **domaine de son bureau d'ingénieurs** : le
+terme de recherche se demande, il ne se devine pas.
 
 ## ⚠️ En attente d'une décision
 
@@ -50,14 +48,10 @@ Reste : les autres domaines clients, puis les règles de filtrage serveur.
 
 ## Fait — septembre 2026
 
-- **Qualification soudeur** : 44 certificats dépouillés, tableau vérifié sans
-  erreur, `QS/` harmonisé (38/38), un soudeur sorti archivé.
-- **Rapport hebdo** : 3 semaines saisies (~80 fiches), 3 onglets de suivi, récap
-  à 3 colonnes, « Qui doit sa fiche » trié par urgence. Scans réorganisés —
-  un PDF par semaine nommé par le lundi, 369 pages, 15 fichiers, 0 anomalie.
-- **DMOS/QMOS** : tableau mis à jour pour la première fois depuis 2023 — ajout du
-  TSI 010, plages de diamètre complétées pour 007 et 008, lues sur les QMOS.
-- **Essai de pression** : volume d'un réseau CAD, critère d'épreuve, lecture des
-  rapports de manomètre — consignés en skill.
-- **Module** : 14 agents, 3 skills, 3 commandes, règlement de coordination,
-  contexte partagé renseigné.
+- **Qualification soudeur** : 44 certificats dépouillés, tableau vérifié, `QS/`
+  harmonisé (38/38), un soudeur sorti archivé.
+- **Rapport hebdo** : 3 semaines saisies (~80 fiches), récap et suivi « qui doit
+  sa fiche » ; scans réorganisés (369 pages, 15 fichiers, 0 anomalie).
+- **DMOS/QMOS** : tableau mis à jour pour la première fois depuis 2023.
+- **Essai de pression** : volume, critère d'épreuve, lecture manomètre → skill.
+- **Module** : 15 agents, 3 skills, 3 commandes, contexte partagé renseigné.
