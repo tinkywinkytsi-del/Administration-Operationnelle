@@ -28,7 +28,7 @@ La répartition des rôles, les **déclencheurs de blocage obligatoires** et le
 cycle de vie d'une demande sont fixés dans [`docs/ORGANISATION.md`](docs/ORGANISATION.md),
 qui fait foi en cas de contradiction.
 
-Derrière le coordinateur, 13 agents à périmètre unique : **6 métier** (par processus),
+Derrière le coordinateur, 14 agents à périmètre unique : **7 métier** (par processus),
 **5 transverses** (par verbe — lire, ranger, remplir, surveiller) et **2 de
 contrôle**, déclenchés par règle et non au jugé. Détail et justification dans
 [`docs/convention-agents.md`](docs/convention-agents.md).
@@ -56,13 +56,14 @@ utilisable **installé comme plugin** et **ouvert directement comme dossier**.
 @contexte-partage/regles-tsi.md
 @contexte-partage/vocabulaire.md
 
-## Les trois modules
+## Les quatre modules
 
 | module | agent | couvre |
 |---|---|---|
 | [`modules/soudure`](modules/soudure/README.md) | `soudure` | qualification des soudeurs (ISO 9606-1, dossier QS) **et** modes opératoires DMOS/QMOS |
 | [`modules/controle-chantier`](modules/controle-chantier/README.md) | `controle-chantier` | procès-verbal des 3 contrôles de chantier annuels |
 | [`modules/rapport-hebdomadaire`](modules/rapport-hebdomadaire/README.md) | `rapport-hebdomadaire` | fiches hebdomadaires d'heures et de frais → rapport mensuel |
+| [`modules/essai-de-pression`](modules/essai-de-pression/README.md) | `essai-de-pression` | épreuve hydraulique d'un réseau enterré CAD/FAD — protocole, pressions CTG, points d'arrêt, PV |
 
 `soudure` **produit** le référentiel des qualifications ; `controle-chantier` le
 **consomme**. Fiabiliser avant de câbler.
