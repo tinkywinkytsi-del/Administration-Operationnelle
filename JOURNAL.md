@@ -14,11 +14,11 @@ documentaire iCloud est accordé automatiquement.
 ## Boîte mail — 28.09
 
 Boîte de réception **vide**, dossier de travail **vidé** dans les archives.
-**19 règles de filtrage** actives, toutes sur domaine d'expéditeur relevé sur
-pièce : onze clients, six fournisseurs, deux organismes de contrôle, le courrier
+**20 règles de filtrage** actives, toutes sur domaine d'expéditeur relevé sur
+pièce : douze clients, six fournisseurs, deux organismes de contrôle, le courrier
 interne.
 
-Archives passées de **1 993 à 1 668** dans la journée : deux fournisseurs et un
+Archives passées de **1 993 à 1 618** dans la journée : deux fournisseurs et un
 laboratoire de contrôle sortis en bloc, un dossier thématique créé pour les
 offres, et un gros fournisseur traité par règle.
 
@@ -28,6 +28,9 @@ couvre cinq clients.
 
 ⛔ **Le courrier envoyé demande un jeu de règles distinct**, sur l'adresse de
 **destination** : dans ce dossier l'expéditeur est toujours le titulaire.
+
+⚠️ **Reste ouvert** : regrouper sur le mot « offre » seul — doublerait le
+volume, échantillon mauvais, non appliqué.
 
 ⚠️ Seuls les compteurs de dossiers font foi, relus après chaque opération. Un
 écart d'une unité en fin de journée = du courrier arrivé entre-temps.
