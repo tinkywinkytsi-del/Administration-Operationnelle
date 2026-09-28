@@ -365,6 +365,11 @@ Trois cas se présentent, et un seul donne une règle :
    un par ligne**, et ils fonctionnent en *ou*. Quand une règle ne ramène rien
    alors que le dossier est plein, c'est le premier réflexe : chercher le
    **second domaine** avant de conclure que la règle est mauvaise.
+
+   **Fusionner deux sociétés dans un même dossier se fait par la règle, pas à la
+   main** : on ajoute le second domaine à la condition existante, puis on
+   réexécute la règle sur le stock. Le geste est unique, il couvre l'arriéré et
+   le flux à venir, et le compteur du dossier mesure le résultat.
 3. **Le client n'écrit jamais lui-même** : tout passe par son bureau d'études,
    qui sert aussi d'autres clients, ou par des collègues en interne. ⛔ **Aucune
    règle n'est possible** — le classement dépend de *qui est en copie*, ce qu'un
