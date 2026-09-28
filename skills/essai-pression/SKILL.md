@@ -49,8 +49,8 @@ extrema de la courbe. **Le critère, c'est le minimum de la courbe comparé à l
 pression d'épreuve** — pas la variation.
 
 La variation s'apprécie au regard de l'incertitude du manomètre et de la
-**température de l'eau**, dont la courbe figure sur le rapport. Les CTG SIG
-(§ 10.3.2) ne fixent **aucune tolérance chiffrée** : la validation est
+**température de l'eau**, dont la courbe figure sur le rapport. Les CTG du maître
+d'ouvrage ne fixent **aucune tolérance chiffrée** : la validation est
 **contradictoire** entre TSI et la Direction des Travaux. Ne jamais affirmer
 seul la conformité — la proposer.
 

@@ -42,7 +42,7 @@
 | **RT** | contrôle radiographique d'une soudure. Numéro séquentiel **par chantier**, jamais global |
 | **isométrique** | schéma d'exécution d'un tronçon, servant de rapport de chantier |
 | **essai de pression** | épreuve hydraulique à 1,5 × la pression de service, sous manomètre enregistreur |
-| **CTG SIG** | cahier des charges techniques du maître d'ouvrage ; § 10.3.2 pour les épreuves et rinçages |
+| **CTG** | cahier des charges techniques du maître d'ouvrage — prescrit pression d'épreuve, durée et rinçage |
 
 ## L'administration
 
