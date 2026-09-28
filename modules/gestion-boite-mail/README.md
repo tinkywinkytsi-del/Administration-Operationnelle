@@ -244,6 +244,23 @@ fournisseur, le nom de la société a ramené 135 résultats, son adresse de con
 129 — les six de différence étaient des messages internes qui ne faisaient que
 citer la société. Six erreurs de classement évitées pour un caractère de plus.
 
+### ⛔ Un domaine court est découpé par le moteur et devient inutilisable
+
+Chercher un domaine très court, du type `x-y.zz`, ne marche pas : le moteur le
+découpe en morceaux et ramène des messages qui n'ont rien à voir — dans un cas
+relevé, soixante-cinq messages d'un tout autre chantier.
+
+> **Quand le domaine est trop court, chercher le nom de la société**, ou un motif
+> de sujet propre à cet expéditeur. Et vérifier l'échantillon : ici, aucun des
+> résultats ne venait de l'expéditeur visé.
+
+### ⚠️ Vérifier dans quel dossier on se trouve avant de chercher
+
+Un clic qui rate dans l'arborescence ouvre un autre dossier sans prévenir, et la
+recherche s'applique alors au mauvais endroit. Le compteur du bas est le
+témoin : s'il ne correspond pas au dossier attendu, on ne cherche pas, on
+renavigue.
+
 ### Un dossier par thème : mesurer les trois formulations avant de trancher
 
 Quand on veut regrouper un **thème** et non un expéditeur — les offres, par
