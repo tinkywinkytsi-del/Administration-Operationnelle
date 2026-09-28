@@ -13,9 +13,12 @@ documentaire iCloud est accordé automatiquement.
 
 ## Boîte mail — 28.09
 
-Boîte de réception **vidée** (tout en archives), puis treize lots ressortis vers
-leur dossier — deux sources de contrôle vers un thème, onze clients. Somme de
-tous les dossiers = total de départ, au message près. Deux tiers du stock classé.
+Boîte de réception **vidée** (tout en archives), puis une vingtaine de lots
+ressortis vers leur dossier : deux sources de contrôle vers un thème, quinze
+clients, trois fournisseurs. Environ **2 800 messages** restent en archives.
+
+⚠️ Ne jamais enchaîner des totaux **calculés** : seuls les compteurs de dossiers
+font foi, et il faut les relire. Un recomptage dossier par dossier reste à faire.
 
 ⛔ **Un dossier de chantier porte un nom faux** (renommage visé un cran trop bas,
 puis serveur incapable de le corriger : « Could not find a part of the path »).
