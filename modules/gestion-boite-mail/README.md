@@ -239,6 +239,43 @@ s'en aperçoive.
 une chaîne de caractères dans leurs noms de chantier. Le mot le plus long et le
 plus spécifique gagne, et la règle la plus précise doit s'exécuter **en premier**.
 
+## Créer une règle de filtrage — la marche à suivre
+
+*Paramètres → Filtrage de Contenu → Nouveau.*
+
+> ⛔ **Le piège qui bloque tout : les sections « Conditions » et « Actions »
+> n'apparaissent qu'une fois la règle enregistrée une première fois.** Sur une
+> règle neuve, le sélecteur de section ne répond pas — ce n'est pas un bug de
+> l'affichage, c'est l'ordre imposé par l'outil.
+
+Séquence qui fonctionne :
+
+1. **Options** — donner un nom, puis **décocher « Activer »**. Une règle sans
+   condition ni action est inerte, mais on ne laisse jamais une règle à moitié
+   écrite en position active.
+2. **Sauvegarder.** Les sections Conditions et Actions deviennent accessibles.
+3. **Conditions → Nouveau.** Choisir *Adresse d'Expéditeur*, puis le champ
+   **« Depuis des domaines spécifiques »**, comparaison *Correspond*, et saisir
+   le domaine (un par ligne).
+4. **Actions → Nouveau.** Choisir *Déplacer le message*, puis le dossier de
+   destination. ⚠️ Le dossier proposé par défaut est **Boîte de Réception**.
+5. Revenir à **Options**, **recocher « Activer »**, enregistrer.
+
+> **Filtrer sur le domaine de l'expéditeur, jamais sur le corps du message.**
+> C'est ce qui supprime d'un coup la classe d'erreurs la plus dangereuse — celle
+> des termes courts trouvés à l'intérieur d'un mot.
+
+Actions disponibles : supprimer, rebond, **déplacer**, ajouter une en-tête,
+ajouter un texte au sujet. Conditions disponibles : adresse d'expéditeur,
+mots ou phrases, adresse de destination, pièces jointes.
+
+## Appliquer les règles au courrier déjà reçu
+
+Clic droit sur un dossier → **« Exécuter le filtre de contenu »**. Cette entrée
+reste grisée tant qu'aucune règle n'existe. Une fois les règles écrites, elle
+range un dossier entier d'un coup : c'est **la bonne façon de traiter un stock**,
+bien plus sûre que des dizaines de tris manuels.
+
 ## Méthode de mise en place
 
 1. **Relever l'existant** — arborescence actuelle, volume de l'inbox, profondeur
