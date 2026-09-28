@@ -205,6 +205,30 @@ l'ordre retenu avant de commencer.
 > pièce, pas par donneur d'ordre. Un dossier client peut donc légitimement
 > paraître vide : son courrier de contrôle est ailleurs, et c'est voulu.
 
+## ⛔ La recherche fouille le corps du message
+
+Elle ne se limite ni à l'expéditeur ni à l'objet. Conséquence : **un terme court
+ramasse tout ce qui le contient à l'intérieur d'un autre mot**.
+
+Cas réel : le nom d'une ville de trois syllabes a ramené **861 messages** —
+commandes de matériel, absences du bureau, notes informatiques — parce qu'il
+se trouve dans *déci**sion***, *pres**sion***, *révi**sion***, *dimen**sion***,
+*discus**sion***. Aucun ne concernait la ville.
+
+> **Avant tout déplacement, on regarde l'échantillon, pas seulement le nombre.**
+> Un compte élevé n'est pas une bonne nouvelle : c'est souvent le signe que le
+> terme est trop court.
+
+Un terme sûr est **discriminant** : un nom de société, un domaine, un nom composé.
+Quand le nom d'une localité est ambigu, chercher plutôt le **nom du client** ou
+son domaine. Cette règle vaut doublement pour les **règles de filtrage
+automatiques** : une règle mal ciblée détourne du courrier sans que personne
+s'en aperçoive.
+
+⚠️ Piège inverse constaté : deux clients de cantons différents peuvent partager
+une chaîne de caractères dans leurs noms de chantier. Le mot le plus long et le
+plus spécifique gagne, et la règle la plus précise doit s'exécuter **en premier**.
+
 ## Méthode de mise en place
 
 1. **Relever l'existant** — arborescence actuelle, volume de l'inbox, profondeur
