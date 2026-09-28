@@ -391,6 +391,32 @@ Trois cas se présentent, et un seul donne une règle :
 > sociétés différentes**. Les rattacher au même dossier est une décision de
 > gestion, pas une évidence technique : **on demande**.
 
+## Analyser un arriéré : trier par expéditeur et balayer
+
+Pour réduire un dossier d'archives, on ne lit pas les messages : on **trie la
+liste par expéditeur** et on la balaie par sauts. Les blocs sautent aux yeux —
+un même correspondant occupe alors dix, vingt, trente lignes d'affilée.
+
+Ce que le balayage fait apparaître, et qu'aucune recherche ne donnerait :
+
+1. **Un même organisme sous plusieurs noms.** Un laboratoire de contrôle peut
+   écrire sous quatre correspondants différents, tous rattachés au même site.
+   C'est une seule règle de domaine, pas quatre.
+2. **Un même fournisseur sous plusieurs formes d'expéditeur** — une adresse
+   nominative, une boîte « commande », une boîte « facture », une adresse
+   `noreply` d'automate. Là encore, un seul domaine suffit.
+3. **Un correspondant qui écrit depuis une adresse privée**, chez un opérateur
+   grand public. ⛔ **Ne jamais mettre un domaine d'opérateur grand public dans
+   une règle** : il ramènerait n'importe qui. On vise l'**adresse exacte**, via
+   le champ *Provenant d'adresses spécifiques*.
+4. **Le bruit de fond** : liens de connexion, notifications de livraison,
+   promotions de garage, résumés quotidiens de plateformes de chantier. Il se
+   compte en centaines et ne mérite aucun dossier.
+
+> **Le balayage se fait par échantillons, pas exhaustivement.** Un saut de
+> plusieurs dizaines de lignes entre deux lectures suffit : un bloc qui mérite
+> un dossier est trop gros pour passer entre les mailles.
+
 ## Ce que les règles ne feront pas : vider l'arriéré
 
 Une règle passée sur un dossier de stock ne déplace que ce qui correspond à sa
