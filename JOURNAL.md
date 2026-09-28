@@ -13,9 +13,13 @@ documentaire iCloud est accordé automatiquement.
 
 ## Boîte mail — 28.09
 
-Boîte de réception **vidée** (tout en archives, compteurs vérifiés), puis deux
-lots ressortis vers leur dossier — un thème, un client — comptés avant, vérifiés
-après. Reste : les autres domaines clients, puis les règles de filtrage serveur.
+Boîte de réception **vidée** (tout en archives), puis cinq lots ressortis vers
+leur dossier — deux sources de contrôle vers un thème, trois clients. Somme de
+tous les dossiers = total de départ, au message près.
+
+⚠️ Le nombre annoncé par une recherche **sous-estime** le réel, et un « 0 »
+après déplacement ne prouve rien : seuls les compteurs de dossiers font foi.
+Reste : les autres domaines clients, puis les règles de filtrage serveur.
 
 ## ⚠️ En attente d'une décision
 
