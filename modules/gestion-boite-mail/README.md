@@ -169,6 +169,17 @@ Constat de terrain, contre-intuitif et coûteux si on l'ignore :
 Corollaire pratique : un tri par recherche se fait **jusqu'à épuisement**, et le
 bilan se lit sur les dossiers.
 
+## Renommer un dossier : ce qui suit, et ce qui casse
+
+Bonne nouvelle mesurée : **une règle de filtrage suit le renommage de son dossier
+de destination**. Après renommage, l'action de la règle affiche le nouveau nom
+sans intervention. Il n'y a donc pas à refaire les règles.
+
+> ⚠️ **Éviter la barre oblique dans un nom de dossier.** C'est le séparateur de
+> hiérarchie du protocole de messagerie : selon le serveur, le nom est refusé,
+> ou pire, interprété comme un chemin et le dossier se retrouve imbriqué. Pour
+> accoler deux raisons sociales, un tiret fait le même travail sans risque.
+
 ## ⛔ Renommer un dossier : opération à ne pas enchaîner
 
 Constat de terrain, à ne pas reproduire :
