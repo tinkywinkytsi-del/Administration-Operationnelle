@@ -71,6 +71,7 @@ messagerie ne dit de façon fiable qu'un chantier est fini.
 | créer un dossier | bouton **dossier** en tête du volet des dossiers → *Nouveau Dossier* ; le champ **Dossier Parent** décide du niveau |
 | déplacer un dossier | **clic droit** sur le dossier → *Déplacer le Dossier* |
 | règles automatiques | *Paramètres* → *Filtrage de Contenu* |
+| chercher par dossier + date | *Recherche Avancée* → portée **Courriel**, puis critères *Dossier* et *Reçu avant / après* |
 | renommer un dossier | **clic droit** → *Modifier le dossier* |
 
 ⚠️ Pièges constatés :
@@ -80,11 +81,16 @@ messagerie ne dit de façon fiable qu'un chantier est fini.
   faut le savoir avant de cliquer ;
 - le filtre de la liste ne connaît **aucun critère de date** — seulement lu/non
   lu, marqué, catégories ;
-- la **Recherche Avancée**, qui seule permet un intervalle de dates, s'ouvre
-  dans une **fenêtre surgissante**. Un agent pilotant le navigateur ne peut pas
-  la déclencher : les popups n'obéissent qu'à un clic humain. Tout comptage ou
-  tri de masse par date passe donc par un clic de Thomas pour ouvrir la
-  fenêtre.
+- la **Recherche Avancée** s'ouvre dans une **fenêtre surgissante** qu'un agent
+  ne peut pas déclencher — les popups n'obéissent qu'à un clic humain. Elle est
+  en revanche accessible directement par son adresse,
+  `…/interface/root#/popout/email-search`, et de là pilotable ;
+- ⛔ **la Recherche Avancée sait compter, pas déplacer.** Sur ses résultats,
+  les seules actions sont *Ouvrir*, *Supprimer* et *Télécharger EML* — au
+  clavier comme au clic droit. Aucun *Déplacer*. Elle sert donc à **établir un
+  compte**, jamais à exécuter un tri de masse ;
+- le champ de date est un `input[type=date]` segmenté qui **n'accepte pas la
+  frappe simulée** : il faut écrire la valeur directement dans le formulaire.
 
 ## Ce qui ne se fait jamais sans validation explicite
 
@@ -122,7 +128,7 @@ arrêtée et les dossiers clients sont créés, les chantiers déjà suivis y so
 rattachés.
 
 Reste à faire, dans l'ordre :
-2. **mesurer le stock** — quels expéditeurs font le volume, sur 3 mois ;
+2. **mesurer le stock** — quels expéditeurs font le volume ;
 5. **trier le stock**, lot par lot, chaque lot annoncé avec son compte ;
 6. **poser les règles de filtrage** pour que le flux futur se range seul ;
 7. **vérifier** les comptes avant/après.
