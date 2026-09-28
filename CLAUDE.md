@@ -28,7 +28,7 @@ La répartition des rôles, les **déclencheurs de blocage obligatoires** et le
 cycle de vie d'une demande sont fixés dans [`docs/ORGANISATION.md`](docs/ORGANISATION.md),
 qui fait foi en cas de contradiction.
 
-Derrière le coordinateur, 14 agents à périmètre unique : **7 métier** (par processus),
+Derrière le coordinateur, 15 agents à périmètre unique : **8 métier** (par processus),
 **5 transverses** (par verbe — lire, ranger, remplir, surveiller) et **2 de
 contrôle**, déclenchés par règle et non au jugé. Détail et justification dans
 [`docs/convention-agents.md`](docs/convention-agents.md).
@@ -56,7 +56,7 @@ utilisable **installé comme plugin** et **ouvert directement comme dossier**.
 @contexte-partage/regles-tsi.md
 @contexte-partage/vocabulaire.md
 
-## Les quatre modules
+## Les cinq modules
 
 | module | agent | couvre |
 |---|---|---|
@@ -64,6 +64,7 @@ utilisable **installé comme plugin** et **ouvert directement comme dossier**.
 | [`modules/controle-chantier`](modules/controle-chantier/README.md) | `controle-chantier` | procès-verbal des 3 contrôles de chantier annuels |
 | [`modules/rapport-hebdomadaire`](modules/rapport-hebdomadaire/README.md) | `rapport-hebdomadaire` | fiches hebdomadaires d'heures et de frais → rapport mensuel |
 | [`modules/essai-de-pression`](modules/essai-de-pression/README.md) | `essai-de-pression` | épreuve hydraulique d'un réseau enterré CAD/FAD — protocole, pressions CTG, points d'arrêt, PV |
+| [`modules/gestion-boite-mail`](modules/gestion-boite-mail/README.md) | `boite-mail` | tri du courrier électronique — arborescence, règles de filtrage SmarterMail, boîte de réception vide |
 
 `soudure` **produit** le référentiel des qualifications ; `controle-chantier` le
 **consomme**. Fiabiliser avant de câbler.
