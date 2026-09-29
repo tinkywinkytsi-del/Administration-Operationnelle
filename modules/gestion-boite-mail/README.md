@@ -473,25 +473,36 @@ minute pour deux mille cinq cents messages.
 
 ## État
 
-Boîte de réception vide. Structure à deux niveaux en place. **Dix-huit règles de
-filtrage** actives, toutes sur **domaine d'expéditeur relevé sur pièce** : onze
-clients, quatre fournisseurs, deux organismes de contrôle, et le courrier interne.
+Boîte de réception **vide**, dossier de travail **vidé** dans les archives.
+**Vingt règles de filtrage** actives, toutes sur **domaine d'expéditeur relevé
+sur pièce** : douze clients, six fournisseurs, deux organismes de contrôle, et
+le courrier interne.
 
-Le courrier interne a été passé sur les deux dossiers de stock, comptes vérifiés
-à l'unité près. Les règles clients ont été écrites d'abord pour le **flux à
-venir** — sur l'arriéré elles ne trouvent presque rien, les lots ayant déjà été
-sortis à la main (voir « Ce que les règles ne feront pas »).
+Les règles ont été **exécutées une par une sur les deux dossiers de stock**,
+comptes relus après chaque passage. L'arriéré d'archives est passé de **1 993 à
+1 618 messages** : deux fournisseurs et un laboratoire de contrôle sortis en
+bloc, un dossier thématique créé, un gros fournisseur traité par règle. Le reste
+ne descendra plus par règle — c'est, par construction, ce qu'aucune règle ne
+couvre (voir « Ce que les règles ne feront pas »).
 
 **Quatre clients resteront en tri manuel** : leur courrier n'arrive jamais depuis
 un domaine à eux, mais par un bureau d'études qui sert plusieurs clients à la
 fois, ou par une plateforme de projet commune à tous les chantiers. Un seul
 mandataire couvre cinq clients. Aucune règle d'expéditeur ne peut les départager.
 
+L'arriéré a été **balayé par expéditeur** (méthode ci-dessus). Il en ressort une
+huitaine de blocs fournisseurs qui justifient chacun un dossier et une règle
+— environ 170 messages —, un correspondant déjà classé qui écrit aussi depuis une
+adresse privée (règle sur l'**adresse exacte**, jamais sur le domaine de
+l'opérateur), une part de courrier de chantier mal rangé qui relève de dossiers
+clients existants, et environ 80 messages de bruit pur que rien ne justifie de
+classer.
+
 Reste à faire :
-- **exécuter les règles** sur les dossiers de stock et mesurer, une par une ;
-- **analyser le reliquat d'archives par expéditeur** — les règles n'y suffiront pas ;
-- décider du sort du **courrier envoyé** (voir ci-dessous) ;
-- **recompter dossier par dossier** pour clore les comptes.
+- **créer les règles des blocs relevés au balayage** — proposées, non appliquées ;
+- **recompter dossier par dossier** pour clore les comptes ;
+- arbitrer le regroupement thématique large resté ouvert (voir « Un dossier par
+  thème »).
 
 ## Trier le courrier envoyé — un second jeu de règles
 
@@ -506,13 +517,11 @@ messages du dossier des envois** : il n'existe alors plus d'endroit unique où
 retrouver ce qu'on a envoyé, tout est réparti par client. C'est une décision de
 fonctionnement, pas un réglage : **elle se demande.**
 
+> **Décision prise : on ne trie pas les envois.** Le dossier des envois reste
+> entier, c'est le seul endroit où retrouver ce qu'on a écrit. Le jeu de règles
+> sur l'adresse de destination est abandonné, pas reporté.
+
 Points ouverts :
-- un interlocuteur fournisseur écrit aussi depuis une **seconde société** :
-  rattachement à trancher ;
-- un bureau d'études sert peut-être plusieurs clients alors qu'une règle le
-  rattache à un seul — à confirmer ;
-- un client n'a pas encore de règle : son seul message observé arrivait relayé
-  en interne, pas directement ;
 - un chantier reste à la racine, sans client rattaché ;
 - quatre sous-dossiers de chantier attendent une uniformisation de nom ;
-- la boîte occupe **82 % de son quota**.
+- la boîte occupe **82 %** de son quota.
