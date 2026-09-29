@@ -30,9 +30,11 @@ les **règles de filtrage** (côté serveur, agissent sur le flux futur) et le
    et sa destination, et attend un accord.
 
 5. ⛔ **Faire trier la boîte de réception par une règle.** Depuis le 29.09.2026,
-   aucune règle ne s'exécute automatiquement : elles sont écrites, désactivées,
-   et ne se lancent que sur demande explicite. L'inbox est la file d'attente de
-   travail de Thomas — il range **après** avoir traité, et c'est lui qui range.
+   dix-huit règles sur vingt sont écrites mais **désactivées** : elles ne se
+   lancent que sur demande explicite. L'inbox est la file d'attente de travail
+   de Thomas — il range **après** avoir traité, et c'est lui qui range.
+   Seules restent actives les règles dont le courrier **n'appelle jamais de
+   décision** : aujourd'hui les deux organismes de contrôle radiographique.
 
 Créer un dossier vide est la seule action sans conséquence : aucun message n'est
 touché. Tu peux la proposer largement.

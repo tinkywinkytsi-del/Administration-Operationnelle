@@ -10,11 +10,14 @@
 > *Adresse d'Expéditeur → Depuis des domaines spécifiques*, action *Déplacer le
 > message*.
 >
-> ⛔ **Elles sont désactivées, et c'est voulu.** Aucune ne trie le courrier
-> entrant : la boîte de réception est une file d'attente de travail, et son
-> titulaire range après avoir traité. Une règle ne se lance que sur demande
-> explicite, à la main, sur un dossier choisi. Voir `README.md`, « Les règles ne
-> trient pas la boîte de réception ».
+> ⛔ **Dix-huit sur vingt sont désactivées, et c'est voulu.** Elles ne trient
+> plus le courrier entrant : la boîte de réception est une file d'attente de
+> travail, et son titulaire range après avoir traité. Elles ne se lancent que
+> sur demande explicite, à la main, sur un dossier choisi.
+>
+> ✅ **Les deux règles des organismes de contrôle (1 et 8) restent actives** :
+> un rapport de contrôle n'appelle aucune décision, il se range directement.
+> Voir `README.md`, « Les règles ne trient pas la boîte de réception ».
 >
 > ⛔ **Aucune adresse nominative dans ce fichier.** Un domaine désigne une
 > société, pas une personne. Voir `README.md`, bandeau d'entête.

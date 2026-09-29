@@ -325,9 +325,16 @@ exécutée sur le dossier.
 
 ## ⛔ Les règles ne trient pas la boîte de réception
 
-**Décision du porteur, 29.09.2026.** Aucune règle ne classe automatiquement le
-courrier entrant. Les vingt règles restent **écrites et désactivées** ; elles ne
-s'exécutent que sur demande explicite, à la main, sur un dossier choisi.
+**Décision du porteur, 29.09.2026.** Le courrier entrant n'est plus classé
+automatiquement. **Dix-huit règles sur vingt** restent écrites mais
+**désactivées** ; elles ne s'exécutent que sur demande explicite, à la main, sur
+un dossier choisi.
+
+**Deux exceptions : les règles des organismes de contrôle restent actives.**
+Un rapport de contrôle radiographique n'appelle aucune décision — il se range et
+se retrouve par chantier. Il n'a donc rien à faire dans une file d'attente de
+travail. C'est le critère, et il se généralise : **une règle reste active quand
+son courrier ne demande jamais d'action.**
 
 La raison n'est pas technique. Un filtre de contenu agit **à la livraison** :
 le message est rangé avant d'avoir été lu. La boîte de réception de Thomas est

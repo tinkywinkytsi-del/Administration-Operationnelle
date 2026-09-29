@@ -9,6 +9,7 @@ qui la concerne**. L'archive explique **pourquoi** les règles et les agents exi
 | [Génération des fichiers DMOS par diamètre](../modules/soudure/conversations/dmos-par-diametre.md) | soudure | 2026-09-12 | archivée, agent créé |
 | [Procès-verbal de contrôle de chantier — V4](../modules/controle-chantier/conversations/pv-v4.md) | controle-chantier | 2026-09-12 | archivée, agent créé |
 | [Rapport mensuel à partir des fiches hebdomadaires](../modules/rapport-hebdomadaire/conversations/rapport-mensuel.md) | rapport-hebdomadaire | 2026-09-12 | archivée **caviardée**, agent créé |
+| [Remplissage du PHS d'un chantier CAD](phs-chantier.md) | — *(module à créer)* | 2026-09-29 | archivée **caviardée**, agent à créer |
 
 > ⚠️ **Le dépôt est public.** Un prompt contenant des noms complets, des données de
 > santé ou des situations individuelles est archivé **caviardé**, avec un tableau de
