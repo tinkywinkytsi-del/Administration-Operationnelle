@@ -15,12 +15,16 @@ documentaire iCloud est accordé automatiquement.
 
 Boîte de réception **vide**, dossier de travail **vidé** dans les archives.
 **20 règles de filtrage** actives, toutes sur domaine d'expéditeur relevé sur
-pièce : douze clients, six fournisseurs, deux organismes de contrôle, le courrier
+pièce : douze clients, cinq fournisseurs, deux organismes de contrôle, le courrier
 interne.
 
 Archives passées de **1 993 à 1 618** dans la journée : deux fournisseurs et un
 laboratoire de contrôle sortis en bloc, un dossier thématique créé pour les
 offres, et un gros fournisseur traité par règle.
+
+Le **référentiel des règles** — nom, domaine, dossier — est publié dans
+`modules/gestion-boite-mail/regles-de-filtrage.md` : relevé sur pièce, destiné à
+être repris tel quel par une autre boîte de l'entreprise.
 
 ⛔ **Quatre clients n'auront jamais de règle** : leur courrier arrive par un
 bureau d'études multi-clients ou une plateforme de projet. Un seul mandataire

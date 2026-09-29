@@ -34,13 +34,22 @@ touché. Tu peux la proposer largement.
 
 ## Ce que tu ne mets jamais dans le dépôt
 
-⚠️ Le dépôt est **public**. N'y entrent jamais : adresses courriel, noms
-d'expéditeurs, objets de messages, noms de clients, **noms de chantiers**,
-numéros d'affaire, noms de dossiers réels de la messagerie.
+⚠️ Le dépôt est **public**, et la frontière ne passe pas où on l'attend.
 
-L'arborescence réelle vit dans la boîte. Le dépôt ne porte que la **méthode** et
-les **conventions de nommage**, écrites avec des formes génériques
-(`<Canton> - <Chantier>`). Voir `contexte-partage/regles-tsi.md` §2.
+✅ **Y entrent** : les noms de sociétés — clients, fournisseurs, organismes de
+contrôle — et leurs **domaines d'expéditeur**, parce qu'une règle de filtrage
+sans son domaine ne se transmet pas. Elles sont consignées dans
+`modules/gestion-boite-mail/regles-de-filtrage.md`, qui est **le** référentiel à
+lire avant de toucher aux règles.
+
+⛔ **N'y entrent jamais** : ce qui désigne une **personne** — nom d'expéditeur,
+adresse nominative, objet de message. Une adresse de fonction (`info@`,
+`factures@`, `noreply@`) passe ; l'adresse d'une personne nommée, surtout chez un
+opérateur grand public, reste dans la boîte et n'est jamais recopiée ici. Ni
+numéro d'affaire, ni nom de chantier : les sous-dossiers de chantier s'écrivent
+en forme générique (`<Canton> - <Chantier>`).
+
+Voir `contexte-partage/regles-tsi.md` §2.
 
 ## Comment tu comptes
 

@@ -4,11 +4,21 @@ Tenir la boîte de réception **vide tous les jours**. Pas « à peu près rang�
 vide. Un message qui reste en inbox est un message dont on ne sait pas encore
 quoi faire — c'est le seul sens qu'on lui donne.
 
-> ⛔ **Aucune donnée réelle de messagerie n'entre dans ce dépôt public.**
-> Ni adresse, ni nom d'expéditeur, ni objet de message, ni nom de client, ni nom
-> de chantier, ni numéro d'affaire. Ce README porte la **méthode** et les
-> **conventions de nommage**. L'arborescence réelle vit dans la boîte, et nulle
-> part ailleurs. Voir `contexte-partage/regles-tsi.md` §2.
+> **Ce qui entre dans ce dépôt public, et ce qui n'y entre pas.**
+>
+> ✅ **Les noms de sociétés et leurs domaines d'expéditeur** — clients,
+> fournisseurs, organismes de contrôle, mandataires. C'est la matière même d'une
+> règle de filtrage : sans le domaine, la règle n'est pas transmissible. Décision
+> du porteur, 29.09.2026, dont le but est de **donner cette organisation à
+> d'autres collaborateurs**. Le référentiel est dans
+> [`regles-de-filtrage.md`](regles-de-filtrage.md).
+>
+> ⛔ **Rien qui désigne une personne.** Ni nom d'expéditeur, ni adresse
+> nominative, ni objet de message. Une adresse de fonction (`info@`, `factures@`,
+> `noreply@`) est un rouage de l'entreprise et peut figurer ; l'adresse d'une
+> personne nommée — a fortiori chez un opérateur grand public — est une donnée
+> personnelle et reste dehors. Ni numéro d'affaire, ni nom de chantier.
+> Voir `contexte-partage/regles-tsi.md` §2.
 
 ## Le système de messagerie
 
@@ -475,8 +485,9 @@ minute pour deux mille cinq cents messages.
 
 Boîte de réception **vide**, dossier de travail **vidé** dans les archives.
 **Vingt règles de filtrage** actives, toutes sur **domaine d'expéditeur relevé
-sur pièce** : douze clients, six fournisseurs, deux organismes de contrôle, et
-le courrier interne.
+sur pièce** : douze clients, cinq fournisseurs, deux organismes de contrôle, et
+le courrier interne. Le détail — nom, domaine, dossier de destination — est dans
+[`regles-de-filtrage.md`](regles-de-filtrage.md), relevé règle par règle.
 
 Les règles ont été **exécutées une par une sur les deux dossiers de stock**,
 comptes relus après chaque passage. L'arriéré d'archives est passé de **1 993 à
