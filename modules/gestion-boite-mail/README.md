@@ -323,6 +323,26 @@ Pour un tri de masse, la bonne voie reste la recherche du dossier lui-même
 (qui, elle, permet *Tout Sélectionner* → *Déplacer*), ou une règle de filtrage
 exécutée sur le dossier.
 
+## ⛔ Les règles ne trient pas la boîte de réception
+
+**Décision du porteur, 29.09.2026.** Aucune règle ne classe automatiquement le
+courrier entrant. Les vingt règles restent **écrites et désactivées** ; elles ne
+s'exécutent que sur demande explicite, à la main, sur un dossier choisi.
+
+La raison n'est pas technique. Un filtre de contenu agit **à la livraison** :
+le message est rangé avant d'avoir été lu. La boîte de réception de Thomas est
+sa **file d'attente de travail**, pas un espace de stockage — un message rangé
+d'avance disparaît de sa vue et sort de sa liste de choses à faire. Le tri vient
+**après** le traitement, et c'est lui qui le fait.
+
+⚠️ Une règle désactivée conserve tout : nom, domaines, destination. Le
+[référentiel](regles-de-filtrage.md) permet de la rejouer à l'identique. Rien
+n'est perdu, rien n'est à réécrire.
+
+⚠️ **À vérifier sur pièce** : si « Exécuter le filtre de contenu » refuse une
+règle désactivée, il faut la réactiver le temps du passage puis la recouper
+aussitôt. Tant que ce n'est pas testé, on ne l'affirme pas.
+
 ## Créer une règle de filtrage — la marche à suivre
 
 *Paramètres → Filtrage de Contenu → Nouveau.*

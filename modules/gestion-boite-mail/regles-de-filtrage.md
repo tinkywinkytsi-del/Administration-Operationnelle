@@ -6,9 +6,15 @@
 > les trois. Il se recopie tel quel dans une autre boîte de l'entreprise.
 >
 > Relevé **sur pièce le 29.09.2026**, règle par règle, dans *Paramètres →
-> Filtrage de Contenu*. Les 20 règles sont actives et toutes du même type :
-> condition *Adresse d'Expéditeur → Depuis des domaines spécifiques*, action
-> *Déplacer le message*.
+> Filtrage de Contenu*. Les 20 règles sont toutes du même type : condition
+> *Adresse d'Expéditeur → Depuis des domaines spécifiques*, action *Déplacer le
+> message*.
+>
+> ⛔ **Elles sont désactivées, et c'est voulu.** Aucune ne trie le courrier
+> entrant : la boîte de réception est une file d'attente de travail, et son
+> titulaire range après avoir traité. Une règle ne se lance que sur demande
+> explicite, à la main, sur un dossier choisi. Voir `README.md`, « Les règles ne
+> trient pas la boîte de réception ».
 >
 > ⛔ **Aucune adresse nominative dans ce fichier.** Un domaine désigne une
 > société, pas une personne. Voir `README.md`, bandeau d'entête.
