@@ -325,10 +325,11 @@ exécutée sur le dossier.
 
 ## ⛔ Les règles ne trient pas la boîte de réception
 
-**Décision du porteur, 29.09.2026.** Le courrier entrant n'est plus classé
-automatiquement. **Dix-huit règles sur vingt** restent écrites mais
-**désactivées** ; elles ne s'exécutent que sur demande explicite, à la main, sur
-un dossier choisi.
+**Décision du porteur, 29.09.2026 — appliquée le 30.09.2026.** Le courrier
+entrant n'est plus classé automatiquement. **Dix-huit règles sur vingt** sont
+écrites mais **désactivées** ; elles ne s'exécutent que sur demande explicite, à
+la main, sur un dossier choisi. État vérifié ligne par ligne après l'opération :
+vingt règles présentes, deux actives, aucune supprimée.
 
 **Deux exceptions : les règles des organismes de contrôle restent actives.**
 Un rapport de contrôle radiographique n'appelle aucune décision — il se range et
@@ -346,9 +347,14 @@ d'avance disparaît de sa vue et sort de sa liste de choses à faire. Le tri vie
 [référentiel](regles-de-filtrage.md) permet de la rejouer à l'identique. Rien
 n'est perdu, rien n'est à réécrire.
 
-⚠️ **À vérifier sur pièce** : si « Exécuter le filtre de contenu » refuse une
-règle désactivée, il faut la réactiver le temps du passage puis la recouper
-aussitôt. Tant que ce n'est pas testé, on ne l'affirme pas.
+⚠️ **Toujours à vérifier sur pièce** : si « Exécuter le filtre de contenu »
+refuse une règle désactivée, il faut la réactiver le temps du passage puis la
+recouper aussitôt. Tant que ce n'est pas testé, on ne l'affirme pas.
+
+⚠️ **Le menu contextuel d'un dossier ne s'ouvre pas si le volet du navigateur
+est masqué.** Le clic droit part, rien n'apparaît — la page ne compose plus
+d'images. Même cause que l'échec des captures d'écran. Afficher le volet avant
+d'essayer.
 
 ## Créer une règle de filtrage — la marche à suivre
 

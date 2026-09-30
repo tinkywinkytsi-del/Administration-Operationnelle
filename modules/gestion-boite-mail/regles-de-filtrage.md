@@ -10,7 +10,8 @@
 > *Adresse d'Expéditeur → Depuis des domaines spécifiques*, action *Déplacer le
 > message*.
 >
-> ⛔ **Dix-huit sur vingt sont désactivées, et c'est voulu.** Elles ne trient
+> ⛔ **Dix-huit sur vingt sont désactivées** depuis le 30.09.2026, **et c'est
+> voulu.** Elles ne trient
 > plus le courrier entrant : la boîte de réception est une file d'attente de
 > travail, et son titulaire range après avoir traité. Elles ne se lancent que
 > sur demande explicite, à la main, sur un dossier choisi.
