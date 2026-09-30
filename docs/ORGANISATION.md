@@ -27,21 +27,23 @@ hors du dépôt attend un accord explicite, point par point.
 
 ---
 
-## 2. Les 15 agents et leur maturité
+## 2. Les 16 agents et leur maturité
 
 Ne pas invoquer un agent dont la matière n'existe pas encore : c'est du temps et
 du contexte dépensés pour rien.
 
-| agent | famille | maturité au 12.09.2026 |
+| agent | famille | maturité au 30.09.2026 |
 |---|---|---|
 | `coordinateur` | entrée | défini — jamais invoqué comme agent |
 | `soudure` | métier | **exercé** — dépouillement de 44 certificats |
 | `controle-chantier` | métier | défini, jamais exercé |
 | `rapport-hebdomadaire` | métier | **exercé** — 3 semaines saisies, ~80 fiches |
 | `essai-de-pression` | métier | **exercé** — un protocole produit, bloqué puis corrigé |
+| `dossier-de-revision` | métier | **exercé** — un dossier monté et remis au client |
 | `appels-offres` | métier | défini, jamais exercé — pas de conversation source |
 | `attestations` | métier | défini, jamais exercé — pas de conversation source |
 | `radiographies` | métier | défini, jamais exercé — pas de conversation source |
+| `boite-mail` | métier | **exercé** — inbox vidée, 20 règles de filtrage |
 | `lecteur-scan` | transverse | **exercé** — invoqué comme agent sur 32 pages manuscrites |
 | `lecteur-tableur` | transverse | **exercé** — procédure appliquée, agent non invoqué |
 | `classeur` | transverse | défini, jamais exercé |

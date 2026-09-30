@@ -31,7 +31,7 @@ Les étapes, dans l'ordre.
 Ce qu'il ne doit jamais faire sans validation.
 ```
 
-## Les 14 agents
+## Les 16 agents
 
 **Le coordinateur — celui à qui on parle**
 
@@ -49,6 +49,9 @@ Ce qu'il ne doit jamais faire sans validation.
 | [`appels-offres`](../agents/appels-offres.md) | offres, soumissions, PV d'ouverture, taux de réussite | — |
 | [`attestations`](../agents/attestations.md) | justificatifs légaux et sociaux, TSI et prestataires | — |
 | [`radiographies`](../agents/radiographies.md) | rapports RT, conformité, laboratoires et tarifs | — |
+| [`essai-de-pression`](../agents/essai-de-pression.md) | épreuve hydraulique d'un réseau enterré | [essai-de-pression](../modules/essai-de-pression/README.md) |
+| [`boite-mail`](../agents/boite-mail.md) | tri du courrier, règles de filtrage | [gestion-boite-mail](../modules/gestion-boite-mail/README.md) |
+| [`dossier-de-revision`](../agents/dossier-de-revision.md) | dossier remis en fin de chantier (DOE) | [dossier-de-revision](../modules/dossier-de-revision/README.md) |
 
 **Agents transverses — par verbe**
 

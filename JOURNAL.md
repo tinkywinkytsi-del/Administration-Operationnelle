@@ -11,33 +11,28 @@ fait foi, puis `contexte-partage/` — désormais renseigné : l'entreprise, les
 enjeux, et le vocabulaire métier. Parler au `coordinateur`. L'accès à la base
 documentaire iCloud est accordé automatiquement.
 
-## Boîte mail — 28.09
+## Dossier de révision — 30.09
 
-Boîte de réception **vide**, dossier de travail **vidé** dans les archives.
-**20 règles de filtrage** actives, toutes sur domaine d'expéditeur relevé sur
-pièce : douze clients, cinq fournisseurs, deux organismes de contrôle, le courrier
-interne.
+Premier dossier monté et **remis**. Le module, le skill et l'agent en
+sont sortis : `modules/dossier-de-revision/`, `skills/monter-dossier-revision/`.
 
-Archives passées de **1 993 à 1 618** dans la journée : deux fournisseurs et un
-laboratoire de contrôle sortis en bloc, un dossier thématique créé pour les
-offres, et un gros fournisseur traité par règle.
+Ce qui a compté, et qui resservira à chaque dossier :
+- **l'arborescence attendue était écrite dans les courriels du chantier** — la
+  chercher avant de choisir une structure ;
+- le **dépouillement des courriels fait partie du montage** : il a livré la
+  validation d'un essai qui n'existait nulle part ailleurs, la version de
+  référence d'un jeu de rapports, et la preuve qu'une pièce était déjà partie ;
+- les **recoupements** ont trouvé des soudures contrôlées et absentes du
+  registre, et un mode opératoire trop étroit pour la moitié des joints.
 
-Le **référentiel des règles** — nom, domaine, dossier — est publié dans
-`modules/gestion-boite-mail/regles-de-filtrage.md` : relevé sur pièce, destiné à
-être repris tel quel par une autre boîte de l'entreprise.
+⛔ **Une demande de modification d'un registre de traçabilité a été refusée**,
+puis faite une fois établi qu'il s'agissait d'une erreur de saisie. La règle est
+dans le module : c'est la réalité du chantier qui tranche, jamais le document le
+plus facile à changer.
 
-⛔ **Quatre clients n'auront jamais de règle** : leur courrier arrive par un
-bureau d'études multi-clients ou une plateforme de projet. Un seul mandataire
-couvre cinq clients.
-
-⛔ **Le courrier envoyé demande un jeu de règles distinct**, sur l'adresse de
-**destination** : dans ce dossier l'expéditeur est toujours le titulaire.
-
-⚠️ **Reste ouvert** : regrouper sur le mot « offre » seul — doublerait le
-volume, échantillon mauvais, non appliqué.
-
-⚠️ Seuls les compteurs de dossiers font foi, relus après chaque opération. Un
-écart d'une unité en fin de journée = du courrier arrivé entre-temps.
+⚠️ **Pièges d'outillage, consignés dans le skill** : Excel et Word refusent
+d'écrire un PDF dans iCloud ; openpyxl détruit les zones d'impression d'un
+classeur formaté — patcher le XML.
 
 ## ⚠️ En attente d'une décision
 
@@ -55,6 +50,10 @@ volume, échantillon mauvais, non appliqué.
    heures avec un libellé hors nomenclature.
 5. **Rapport hebdo** — juillet et août n'ont qu'un scan chacun : six semaines
    n'ont jamais été numérisées.
+6. **Dossier de révision** — sur le chantier remis : la gorge des soudures
+   d'angle n'est écrite sur aucun mode opératoire, et les deux numérotations du
+   cahier de soudure divergent. Laissé en l'état sur décision, à reprendre pour
+   les prochains.
 
 ## Fait — septembre 2026
 
@@ -64,4 +63,9 @@ volume, échantillon mauvais, non appliqué.
   sa fiche » ; scans réorganisés (369 pages, 15 fichiers, 0 anomalie).
 - **DMOS/QMOS** : tableau mis à jour pour la première fois depuis 2023.
 - **Essai de pression** : volume, critère d'épreuve, lecture manomètre → skill.
-- **Module** : 15 agents, 3 skills, 3 commandes, contexte partagé renseigné.
+- **Boîte mail** : inbox vide, 20 règles de filtrage sur domaine, archives de
+  1 993 à 1 618, référentiel publié dans `modules/gestion-boite-mail/`.
+- **Essai de pression** : protocole produit, bloqué par les deux contre-pouvoirs
+  puis corrigé → module `essai-de-pression`.
+- **Dossier de révision** : un dossier monté et remis → module + skill + agent.
+- **Module** : 16 agents, 4 skills, 3 commandes, 6 modules.
