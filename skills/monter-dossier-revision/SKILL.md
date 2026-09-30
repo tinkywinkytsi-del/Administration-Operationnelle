@@ -83,7 +83,7 @@ c'est le recoupement qui attrape les certificats oubliés.
    soudage** — pas à la date du jour.
 3. **Épaisseurs et matériaux** des certificats matière contre la plage du mode
    opératoire. C'est là qu'on découvre qu'un mode opératoire écrit pour une
-   épaisseur nominale unique ne décrit pas la moitié des joints.
+   épaisseur nominale unique ne décrit pas des soudures du chantier.
 4. **Nombre de pièces spéciales** au cahier contre le nombre de lignes aux
    rapports CND. Un écart = des soudures contrôlées et absentes du registre.
 5. **Les deux numérotations du cahier** entre elles et contre les rapports CND :

@@ -77,7 +77,7 @@ revient. Tous ont attrapé une vraie erreur au moins une fois.
 | pièces jointes des courriels d'envoi | certificats matière classés | ce qui est arrivé par mail et n'a jamais été classé |
 | nombre de pièces spéciales au cahier | nombre de lignes aux rapports CND | des soudures contrôlées et absentes du registre |
 | poinçons du cahier | certificats disponibles, **aux dates de soudage** | un soudeur sans qualification couvrante |
-| épaisseurs et matériaux des certificats matière | plage du mode opératoire | un mode opératoire qui ne décrit pas la moitié des joints |
+| épaisseurs et matériaux des certificats matière | plage du mode opératoire | un mode opératoire qui ne décrit pas des soudures du chantier |
 | les deux numérotations du cahier entre elles | rapports CND | doublons et transpositions |
 | date d'un document déjà transmis | courriels d'envoi | une version corrigée qui contredit une version déjà chez le client |
 

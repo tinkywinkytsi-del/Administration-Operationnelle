@@ -23,7 +23,7 @@ Ce qui a compté, et qui resservira à chaque dossier :
   validation d'un essai qui n'existait nulle part ailleurs, la version de
   référence d'un jeu de rapports, et la preuve qu'une pièce était déjà partie ;
 - les **recoupements** ont trouvé des soudures contrôlées et absentes du
-  registre, et un mode opératoire trop étroit pour la moitié des joints.
+  registre, et un mode opératoire trop étroit pour des soudures du chantier.
 
 ⛔ **Une demande de modification d'un registre de traçabilité a été refusée**,
 puis faite une fois établi qu'il s'agissait d'une erreur de saisie. La règle est
